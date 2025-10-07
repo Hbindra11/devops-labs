@@ -21,3 +21,4 @@ Each lab folder includes setup instructions, scripts, and a short reflection on 
 
 ## 📁 Repository Structure
 
+The repository is being gradually structured as I progress through my 8-week DevOps practice plan.
