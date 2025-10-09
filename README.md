@@ -26,6 +26,7 @@ devops-labs/
 │
 ├── week01_lab-setup/ # Linux fundamentals – in progress
 │ ├── README.md # Week 1 summary (Linux labs ongoing, AWS not started)
+│ ├── week01_log.md # Daily learning log with progress notes
 │ ├── screenshots/ # Lab screenshots to be added soon
 │ └── aws-lab-notes.md # Placeholder for AWS Skill Builder notes
 │
@@ -46,10 +47,10 @@ CI/CD workflow created early as part of initial DevOps setup — to be expanded 
 
 | Date | Update |
 |------|---------|
-| **06 Oct 2025** | Created repository and initial structure; added `.github/workflows/` folder with first CI/CD workflow setup. |
-| **07 Oct 2025** | Completed Day 1 of Linux practice (navigation, users, permissions). |
-| **08 Oct 2025** | Continued Linux system operations practice; added progress to `linux-commands.md`. |
-| **09 Oct 2025** | Began documenting Week 1 status in `week01_lab-setup/README.md`; preparing for AWS Skill Builder labs. |
+| **06 Oct 2025** | Set up `devops-labs` repository and `.github/workflows/` folder for initial CI/CD setup. Installed AWS Free Tier and registered on KodeKloud. Watched “Introduction to DevOps” overview. |
+| **07 Oct 2025** | Continued KodeKloud Linux labs: practiced basic navigation (`pwd`, `ls`, `cd`), directory management, and file creation. Captured terminal screenshots for documentation. |
+| **08 Oct 2025** | Advanced through KodeKloud Linux labs; reviewed user and permission concepts (`adduser`, `chmod`, `chown`) — hands-on practice planned. Began summarizing commands. |
+| **09 Oct 2025** | Completed all core KodeKloud Linux labs and repeated topics in a short crash course. Watched Boot.dev Linux Course for reinforcement. Created `linux-commands.md` and `week01_log.md`. Updated repository structure and main `README.md`. Planning to complete user-and-permissions lab next. |
 
 ---
 
