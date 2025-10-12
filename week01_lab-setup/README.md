@@ -6,4 +6,3 @@
 - ☁️ Began AWS Cloud Practitioner Essentials – completed **Module 1** and almost finished **Module 2** (Cloud Economics & Billing)  
 - 🔍 Found topics on pricing, scaling, and load balancing dense — decided to move on to **AWS Skill Builder hands-on labs** next week for better understanding  
 - 💡 Planning to upgrade to **KodeKloud Pro** for extended Linux lab access  
-- 🧾 Documentation: [Linux Commands Reference](./linux-commands.md) and [Week 1 Log](./week01_lab-setup/week01_log.md)
