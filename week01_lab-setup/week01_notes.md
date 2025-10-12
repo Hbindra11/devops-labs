@@ -21,6 +21,15 @@
 - Watched the [Boot.dev Linux Course](https://www.boot.dev/courses/learn-linux) for additional theory and examples.  
 - Created the initial version of `linux-commands.md`.  
 - Updated repository structure and main `README.md`.  
-- Planning to complete the user-and-permissions hands-on session tomorrow.  
+- Planning to complete the user-and-permissions hands-on session soon.  
 - Preparing to begin AWS Skill Builder setup soon.
 
+**Day 5 (Oct 10, 2025):**
+- Began AWS Cloud Practitioner Essentials on [AWS Skill Builder](https://skillbuilder.aws).  
+- Completed **Module 1: Introduction to AWS Cloud**.  
+- Learned about AWS global infrastructure, benefits of cloud adoption, and the shared responsibility model.
+
+**Day 6 (Oct 11, 2025):**
+- Continued AWS Cloud Practitioner Essentials; almost completed **Module 2: AWS Cloud Economics and Billing**.  
+- Found sections on pricing, scaling, and load balancing dense — decided to focus next on **hands-on AWS Skill Builder labs** to reinforce understanding.  
+- Planning to upgrade from the free KodeKloud account to the paid version to access additional Linux hands-on labs, especially for user and permissions practice.
