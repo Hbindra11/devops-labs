@@ -24,11 +24,16 @@ Each lab folder includes setup instructions, scripts, and a short reflection on 
 ```
 devops-labs/
 │
-├── week01_lab-setup/ # Linux + AWS fundamentals – in progress
-│ ├── README.md # Week 1 summary 
+├── week01_lab-setup/ # Linux & AWS foundations – completed
+│ ├── README.md # Week 1 summary (Linux + AWS theory)
 │ ├── week01_log.md # Daily learning log with progress notes
-│ ├── screenshots/ # Lab screenshots 
-│ └── aws-lab-notes.md # AWS Skill Builder notes
+│ ├── aws-lab-notes.md # Notes from AWS Cloud Practitioner Essentials
+│ └── screenshots/ # KodeKloud & AWS quiz screenshots
+│
+├── week02_aws-labs/ # Placeholder – in progress
+│ ├── README.md # Weekly overview, goals, reflection
+│ ├── week02_log.md # Daily notes for Week 2
+│ └── screenshots/ # Upload AWS console screenshots (EC2, S3, IAM)
 │
 ├── linux-commands.md # Linux commands reference – in progress
 │
