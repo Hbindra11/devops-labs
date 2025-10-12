@@ -37,7 +37,7 @@ devops-labs/
 ```
 
 The repository is being gradually structured as I progress through my 8-week DevOps practice plan.  
-Current focus: completing Linux fundamentals and preparing to start AWS labs (Week 1).  
+Current focus: completing Linux fundamentals and preparing to start AWS labs (Week 2).  
 CI/CD workflow created early as part of initial DevOps setup — to be expanded later with Docker and deployment automation.
 
 ---
