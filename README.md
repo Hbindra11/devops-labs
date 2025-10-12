@@ -63,7 +63,5 @@ CI/CD workflow created early as part of initial DevOps setup — to be expanded 
 
 🧭 *This changelog is updated weekly as I progress through my 8-week DevOps practice plan.*
 
----
 
-🧭 *This changelog is updated weekly as I progress through my 8-week DevOps practice plan.*
 
