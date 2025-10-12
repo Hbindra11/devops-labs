@@ -28,7 +28,7 @@ devops-labs/
 │ ├── README.md # Week 1 summary 
 │ ├── week01_log.md # Daily learning log with progress notes
 │ ├── screenshots/ # Lab screenshots 
-│ └── aws-lab-notes.md # Placeholder for AWS Skill Builder notes
+│ └── aws-lab-notes.md # AWS Skill Builder notes
 │
 ├── linux-commands.md # Linux commands reference – in progress
 │
