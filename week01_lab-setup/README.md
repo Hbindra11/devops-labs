@@ -1,28 +1,9 @@
-# Week 01 Lab – Linux & AWS Setup 🧩
+## 🐧 Week 1 Progress – Linux & AWS Foundations
 
-This folder documents my first week of DevOps practice, focused on:
-- Practicing Linux fundamentals using KodeKloud Playground and Boot.dev course  
-- AWS setup and labs to follow later in the week  
-
----
-
-## 🐧 Linux Practice Highlights
-
-- Almost done practicing Linux fundamentals on KodeKloud Playground and Boot.dev course  
-- Completed navigation, user management, permissions, and process monitoring exercises  
-- Still need to explore system logs in `/var/log`  
-- Recorded useful commands in [Linux Commands Reference](../linux-commands.md)  
-
----
-
-## ☁️ AWS Practice Highlights
-
-- Not yet started AWS setup and labs  
-- Plan to begin with Cloud Practitioner Essentials modules on [AWS Skill Builder](https://skillbuilder.aws) later this week  
-
----
-
-## 🧠 Reflection
-
-Still working on completing Linux fundamentals and transitioning to AWS basics.  
-This week’s focus remains on building strong command-line confidence and connecting how Linux system operations fit within cloud environments.
+- ✅ Completed Linux fundamentals (KodeKloud + Boot.dev)  
+- 🧩 Practiced file navigation, directories, and system basics  
+- 🕓 Still need to complete hands-on labs for user and permissions management (`adduser`, `chmod`, `chown`)  
+- ☁️ Began AWS Cloud Practitioner Essentials – completed **Module 1** and almost finished **Module 2** (Cloud Economics & Billing)  
+- 🔍 Found topics on pricing, scaling, and load balancing dense — decided to move on to **AWS Skill Builder hands-on labs** next week for better understanding  
+- 💡 Planning to upgrade to **KodeKloud Pro** for extended Linux lab access  
+- 🧾 Documentation: [Linux Commands Reference](./linux-commands.md) and [Week 1 Log](./week01_lab-setup/week01_log.md)
