@@ -57,7 +57,7 @@ CI/CD workflow created early as part of initial DevOps setup — to be expanded 
 | **08 Oct 2025** | Advanced through KodeKloud Linux labs; reviewed user and permission concepts (`adduser`, `chmod`, `chown`) — hands-on practice pending. |
 | **09 Oct 2025** | Completed all core Linux labs, watched Boot.dev Linux course, created `linux-commands.md` and `week01_log.md`. Updated repo structure and main README. |
 | **10 Oct 2025** | Began AWS Cloud Practitioner Essentials; completed Module 1 (AWS Cloud Basics). |
-| **11 Oct 2025** | Progressed through Module 2 (Cloud Economics & Billing). Planned transition to AWS Skill Builder hands-on labs and KodeKloud Pro upgrade. |
+| **11 Oct 2025** | Progressed through Module 2 (Compute in the Cloud). Planned transition to AWS Skill Builder hands-on labs and KodeKloud standard upgrade. |
 
 ---
 
