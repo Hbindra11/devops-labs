@@ -24,10 +24,10 @@ Each lab folder includes setup instructions, scripts, and a short reflection on 
 ```
 devops-labs/
 │
-├── week01_lab-setup/ # Linux fundamentals – in progress
-│ ├── README.md # Week 1 summary (Linux labs ongoing, AWS not started)
+├── week01_lab-setup/ # Linux + AWS fundamentals – in progress
+│ ├── README.md # Week 1 summary 
 │ ├── week01_log.md # Daily learning log with progress notes
-│ ├── screenshots/ # Lab screenshots to be added soon
+│ ├── screenshots/ # Lab screenshots 
 │ └── aws-lab-notes.md # Placeholder for AWS Skill Builder notes
 │
 ├── linux-commands.md # Linux commands reference – in progress
@@ -47,10 +47,16 @@ CI/CD workflow created early as part of initial DevOps setup — to be expanded 
 
 | Date | Update |
 |------|---------|
-| **06 Oct 2025** | Set up `devops-labs` repository and `.github/workflows/` folder for initial CI/CD setup. Installed AWS Free Tier and registered on KodeKloud. Watched “Introduction to DevOps” overview. |
-| **07 Oct 2025** | Continued KodeKloud Linux labs: practiced basic navigation (`pwd`, `ls`, `cd`), directory management, and file creation. Captured terminal screenshots for documentation. |
-| **08 Oct 2025** | Advanced through KodeKloud Linux labs; reviewed user and permission concepts (`adduser`, `chmod`, `chown`) — hands-on practice planned. Began summarizing commands. |
-| **09 Oct 2025** | Completed all core KodeKloud Linux labs and repeated topics in a short crash course. Watched Boot.dev Linux Course for reinforcement. Created `linux-commands.md` and `week01_log.md`. Updated repository structure and main `README.md`. Planning to complete user-and-permissions lab next. |
+| **06 Oct 2025** | Set up `devops-labs` repository and `.github/workflows/` folder for initial CI/CD setup. Installed AWS Free Tier and registered on KodeKloud. Watched “Introduction to DevOps.” |
+| **07 Oct 2025** | Continued KodeKloud Linux labs: practiced navigation (`pwd`, `ls`, `cd`), directory management, and file creation. Captured terminal screenshots. |
+| **08 Oct 2025** | Advanced through KodeKloud Linux labs; reviewed user and permission concepts (`adduser`, `chmod`, `chown`) — hands-on practice pending. |
+| **09 Oct 2025** | Completed all core Linux labs, watched Boot.dev Linux course, created `linux-commands.md` and `week01_log.md`. Updated repo structure and main README. |
+| **10 Oct 2025** | Began AWS Cloud Practitioner Essentials; completed Module 1 (AWS Cloud Basics). |
+| **11 Oct 2025** | Progressed through Module 2 (Cloud Economics & Billing). Planned transition to AWS Skill Builder hands-on labs and KodeKloud Pro upgrade. |
+
+---
+
+🧭 *This changelog is updated weekly as I progress through my 8-week DevOps practice plan.*
 
 ---
 
