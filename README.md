@@ -30,7 +30,7 @@ devops-labs/
 │ ├── aws-lab-notes.md # Notes from AWS Cloud Practitioner Essentials
 │ └── screenshots/ # KodeKloud & AWS quiz screenshots
 │
-├── week02_aws-labs/ # Placeholder – in progress
+├── week02_aws-labs/ # AWS hands-on labs – active
 │ ├── README.md # Weekly overview, goals, reflection
 │ ├── week02_log.md # Daily notes for Week 2
 │ └── screenshots/ # Upload AWS console screenshots (EC2, S3, IAM)
