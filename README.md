@@ -42,8 +42,10 @@ devops-labs/
 ```
 
 The repository is being gradually structured as I progress through my 8-week DevOps practice plan.  
-Current focus: completing Linux fundamentals and preparing to start AWS labs (Week 2).  
-CI/CD workflow created early as part of initial DevOps setup — to be expanded later with Docker and deployment automation.
+Current focus: completing AWS hands-on labs (Week 2) — including EC2, S3, and IAM — while reinforcing Cloud Practitioner Essentials concepts through practical exercises.  
+In parallel, I upgraded to **KodeKloud Standard** to access full Linux and DevOps hands-on labs, continuing work on user and permission management tasks not yet completed in Week 1.  
+The initial CI/CD workflow remains in place and will be expanded in upcoming weeks with Docker and automated deployment practice.
+
 
 ---
 
@@ -58,6 +60,7 @@ CI/CD workflow created early as part of initial DevOps setup — to be expanded 
 | **09 Oct 2025** | Completed all core Linux labs, watched Boot.dev Linux course, created `linux-commands.md` and `week01_log.md`. Updated repo structure and main README. |
 | **10 Oct 2025** | Began AWS Cloud Practitioner Essentials; completed Module 1 (AWS Cloud Basics). |
 | **11 Oct 2025** | Progressed through Module 2 (Compute in the Cloud). Planned transition to AWS Skill Builder hands-on labs and KodeKloud standard upgrade. |
+| **13–14 Oct 2025** | Added `week02_aws-labs/` folder and initial documentation. Completed AWS Skill Builder labs **“Introduction to Amazon EC2”** and **“Introduction to Amazon S3”**, plus Cloud Practitioner Essentials **Module 6 (Storage)** with 87% quiz score. Uploaded corresponding screenshots and certificates to `/screenshots/`. |
 
 ---
 
