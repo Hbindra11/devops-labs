@@ -1,6 +1,7 @@
-# DevOps Labs 🧰
+# DevOps & Cloud Learning Portfolio 🧰  
 
-This repository documents my hands-on learning journey in **DevOps and Cloud Engineering** — part of a personal 8-week practice plan focused on continuous integration, containerization, cloud infrastructure, and automation.
+This repository documents my learning journey in **DevOps and Cloud Engineering**, combining study, guided practice, and continuous upskilling.  
+It forms part of a personal **8-week structured learning plan** focused on continuous integration, containerization, cloud infrastructure, and automation.
 
 ---
 
