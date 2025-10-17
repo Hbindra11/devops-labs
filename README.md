@@ -31,10 +31,10 @@ devops-labs/
 │ ├── aws-lab-notes.md # Notes from AWS Cloud Practitioner Essentials
 │ └── screenshots/ # KodeKloud & AWS quiz screenshots
 │
-├── week02_aws-labs/ # AWS hands-on labs – active
+├── week02_aws-labs/ # AWS & Linux hands-on labs – active
 │ ├── README.md # Weekly overview, goals, reflection
 │ ├── week02_log.md # Daily notes for Week 2
-│ └── screenshots/ # Upload AWS console screenshots (EC2, S3, IAM)
+│ └── screenshots/ # Upload AWS & Kodekloud progress screenshots
 │
 ├── linux-commands.md # Linux commands reference – in progress
 │
@@ -43,9 +43,9 @@ devops-labs/
 ```
 
 The repository is being gradually structured as I progress through my 8-week DevOps practice plan.  
-Current focus: completing AWS hands-on labs (Week 2) — including EC2, S3, and IAM — while reinforcing Cloud Practitioner Essentials concepts through practical exercises.  
-In parallel, I upgraded to **KodeKloud Standard** to access full Linux and DevOps hands-on labs, continuing work on user and permission management tasks not yet completed in Week 1.  
-The initial CI/CD workflow remains in place and will be expanded in upcoming weeks with Docker and automated deployment practice.
+Current focus: completing **AWS hands-on labs (Week 2)** — including EC2, S3, and IAM — while reinforcing *Cloud Practitioner Essentials* concepts through practical exercises.  
+In parallel, I have progressed to **51% completion** of the *KodeKloud Linux Basics* course (Standard plan), expanding my understanding of user and permission management, processes, and system operations relevant to DevOps workflows.  
+The initial CI/CD workflow remains in place and will be expanded in the upcoming weeks with Docker and automated deployment practice.
 
 
 ---
@@ -62,6 +62,7 @@ The initial CI/CD workflow remains in place and will be expanded in upcoming wee
 | **10 Oct 2025** | Began AWS Cloud Practitioner Essentials; completed Module 1 (AWS Cloud Basics). |
 | **11 Oct 2025** | Progressed through Module 2 (Compute in the Cloud). Planned transition to AWS Skill Builder hands-on labs and KodeKloud standard upgrade. |
 | **13–14 Oct 2025** | Added `week02_aws-labs/` folder and initial documentation. Completed AWS Skill Builder labs **“Introduction to Amazon EC2”** and **“Introduction to Amazon S3”**, plus Cloud Practitioner Essentials **Module 6 (Storage)** with 87% quiz score. Uploaded corresponding screenshots and certificates to `/screenshots/`. |
+| **15 - 17 Oct 2025** | Completed AWS EC2 and S3 labs and advanced to 51% in the KodeKloud *Linux Basics* course. Reinforced Linux fundamentals (users, permissions, processes) while preparing to complete the AWS IAM lab next. |
 
 ---
 
