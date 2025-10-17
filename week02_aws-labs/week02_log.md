@@ -23,8 +23,8 @@
 - Reviewed and repeated earlier topics from the free labs (CLI navigation, file handling, permissions) to reinforce understanding through repetition.
 
 **Day 4 & 5 (Oct 16–17, 2025):**  
-- Continued with the *KodeKloud Linux Basics* course, reaching **47% completion**.  
+- Continued with the *KodeKloud Linux Basics* course, reaching **51% completion**.  
 - Completed several labs related to permissions, process management, and basic system commands.  
 - Found the real-world context of Bob’s story engaging and helpful for understanding how Linux fits into DevOps workflows.  
-- Saved screenshots of completed labs for documentation.
+- Saved screenshot of course with labs progress for documentation.
 - Plan to next complete the final AWS Skill Builder Lab on **IAM**, as part of the *Cloud Practitioner Essentials* learning path.
