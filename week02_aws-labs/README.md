@@ -1,35 +1,39 @@
-# Week 02 – AWS Hands-on Labs ☁️
+# Week 02 – AWS & Linux Hands-on Labs ☁️🐧  
 
-This week focuses on applying AWS fundamentals through Skill Builder labs and continuing the Cloud Practitioner Essentials course.  
-The goal is to reinforce theoretical concepts with hands-on experience using **EC2** and **S3**.
-
----
-
-## 🎯 Learning Goals
-- Practice launching and managing EC2 instances.  
-- Explore AWS storage services, especially S3.  
-- Understand core storage concepts like durability, scalability, and cost efficiency.  
-- Strengthen theoretical understanding through Cloud Practitioner Essentials (Module 6).  
+This week focused on strengthening AWS foundational skills through hands-on labs and continuing to build Linux fundamentals for DevOps using KodeKloud.  
+The goal was to reinforce theory from the AWS Cloud Practitioner course and gain more confidence with Linux system operations and commands.
 
 ---
 
-## 🧩 Labs & Modules Completed
+## 🎯 Learning Goals  
+- Practice AWS compute and storage fundamentals (EC2 and S3).  
+- Strengthen Linux fundamentals relevant to DevOps (users, permissions, processes, system monitoring).  
+- Reinforce theoretical concepts through practical, guided exercises.  
+- Develop a consistent workflow using both Linux and AWS environments.  
+
+---
+
+## 🧩 Labs & Modules Completed  
+
 | Activity | Description | Status | Evidence |
 |-----------|--------------|---------|-----------|
 | **Introduction to Amazon EC2 (Lab)** | Learned to launch, connect to, and terminate EC2 instances; understood instance types, AMIs, and regions. | ✅ Completed | ![EC2 Lab Certificate](./screenshots/aws-lab-ec2-intro-certificate.png) |
 | **Cloud Practitioner Essentials – Module 6: Storage** | Covered AWS storage services (S3, EBS, EFS, Glacier). Completed quiz with 87%. | ✅ Completed | ![Module 6 Quiz](./screenshots/aws-cpe-module6-storage-quiz.png) |
 | **Introduction to Amazon S3 (Lab)** | Created S3 buckets, uploaded objects, explored permissions and versioning. | ✅ Completed | ![S3 Lab Certificate](./screenshots/aws-lab-s3-intro-certificate.png) |
+| **KodeKloud – Linux Basics Course** | Covered navigation, user & permission management, processes, and system commands. Course completion now at **51%**. | ✅ In Progress | ![Linux Basics Progress](./screenshots/kodekloud-linux-basics-progress-51.png) |
 
 ---
 
-## 🧠 Reflection
-This week built directly on the compute concepts from last week’s EC2 theory.  
-Completing the EC2 and S3 labs helped connect theory to practice — especially understanding **how resources are provisioned and secured** in AWS.  
-Module 6 on storage gave valuable background before the S3 lab, making it easier to follow the concepts of *durability, redundancy,* and *scalability*.  
-Next, I plan to continue with IAM and billing-related hands-on labs to complete the AWS fundamentals track.
+## 🧠 Reflection  
+
+The first part of this week focused on AWS — completing EC2 and S3 labs to strengthen understanding of compute and storage fundamentals.  
+These labs helped connect Cloud Practitioner theory to real AWS workflows, especially around provisioning, permissions, and scalability.  
+
+Midweek, I shifted focus back to **Linux**, progressing to **51% completion** in the KodeKloud *Linux Basics* course.  
+The story-driven, hands-on approach (featuring Bob’s journey) made learning CLI operations, permissions, and process management engaging and practical.  
+
+Next, I plan to complete the final **AWS IAM lab** and continue advancing in the Linux modules to reach 70% completion.
 
 ---
 
-## 📸 Screenshots Folder
-All certificates and quiz results are stored in the `/screenshots/` subfolder.  
-Each image corresponds to the labs and modules completed this week.
+🗓️ *Progress as of 17 October 2025*
