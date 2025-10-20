@@ -19,9 +19,9 @@ The goal was to reinforce theory from the *AWS Cloud Practitioner Essentials* co
 |-----------|--------------|---------|-----------|
 | **Introduction to Amazon EC2 (Lab)** | Learned to launch, connect to, and terminate EC2 instances; explored instance types, AMIs, regions, and security groups. | ✅ Completed | ![EC2 Lab Certificate](./screenshots/aws-lab-ec2-intro-certificate.png) |
 | **Introduction to Amazon S3 (Lab)** | Created S3 buckets, uploaded and versioned objects, configured permissions, and practiced secure data storage. | ✅ Completed | ![S3 Lab Certificate](./screenshots/aws-lab-s3-intro-certificate.png) |
-| **Cloud Practitioner Essentials – Module 5: Networking in the Cloud** | Learned VPC, subnets, security groups, and load balancing concepts. Scored **86%** on second assessment attempt after deeper review. | ✅ Completed | ![Module 5 Quiz](./screenshots/aws-cpe-module5-networking-quiz.png) |
-| **Cloud Practitioner Essentials – Module 9: Security in the Cloud** | Covered AWS security best practices, IAM, encryption, and shared responsibility model. Achieved **100%** on quiz. | ✅ Completed | ![Module 9 Quiz](./screenshots/aws-cpe-module9-security-quiz.png) |
-| **Introduction to IAM (Lab)** | Created users, groups, roles, and policies. Tested permission boundaries and least privilege access. | ✅ Completed | ![IAM Lab Certificate](./screenshots/aws-lab-iam-intro-certificate.png) |
+| **Cloud Practitioner Essentials – Module 5: Networking in the Cloud** | Learned VPC, subnets, security groups, and load balancing concepts. Scored **86%** on second assessment attempt after deeper review. | ✅ Completed | ![Module 5 Quiz](./screenshots/module5_networking_assessment.png) |
+| **Cloud Practitioner Essentials – Module 9: Security in the Cloud** | Covered AWS security best practices, IAM, encryption, and shared responsibility model. Achieved **100%** on quiz. | ✅ Completed | ![Module 9 Quiz](./screenshots/module9_security_assessment.png) |
+| **Introduction to IAM (Lab)** | Created users, groups, roles, and policies. Tested permission boundaries and least privilege access. | ✅ Completed | ![IAM Lab Certificate](./screenshots/lab_intro_to_iam_certificate.png) |
 | **KodeKloud – Linux Basics Course** | Practiced Linux navigation, file management, users, permissions, and processes. Course completion at **51%**. | ✅ In Progress | ![Linux Basics Progress](./screenshots/kodekloud-linux-basics-progress-51.png) |
 
 ---
