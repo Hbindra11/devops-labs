@@ -61,7 +61,7 @@ This screenshot shows the Visual Studio Code terminal where I:
 - Verified running containers, then stopped and removed it  
 
 <p align="center">
-  <img src="./screenshots/nginx-container-vscode.png" alt="Running and managing Nginx container in VS Code terminal" width="75%">
+  <img src="./screenshots/nginx-container.png" alt="Running and managing Nginx container in VS Code terminal" width="75%">
 </p>
 
 ---
@@ -71,7 +71,7 @@ After running `docker compose watch` from the *Getting Started To-Do App* folder
 This screenshot shows the Docker Desktop interface listing all running containers and their statuses.
 
 <p align="center">
-  <img src="./screenshots/docker-desktop-todo-containers.png" alt="Docker Desktop showing To-Do app containers running" width="80%">
+  <img src="./screenshots/docker-desktop.png" alt="Docker Desktop showing To-Do app containers running" width="80%">
 </p>
 
 ---
@@ -80,7 +80,7 @@ This screenshot shows the Docker Desktop interface listing all running container
 The To-Do web app frontend displayed successfully, confirming that the containerized full-stack setup (front-end + back-end + database) was working correctly.
 
 <p align="center">
-  <img src="./screenshots/todo-app-frontend.png" alt="To-Do app frontend running in browser" width="75%">
+  <img src="./screenshots/docker-compose-todo.png" alt="To-Do app frontend running in browser" width="75%">
 </p>
 
 ---
