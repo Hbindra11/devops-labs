@@ -50,6 +50,9 @@ Next, I plan to:
 - Begin preparing for **Week 4 – Kubernetes Intro**, where I’ll deploy Dockerized apps using Minikube and KodeKloud labs.
 
 ---
+**Screenshots:**
+![Nginx Container Running](./screenshots/nginx-container.png)
+![Docker Desktop Containers](./screenshots/docker-desktop.png)
+![Docker Compose Todo App](./screenshots/docker-compose-todo.png)
 
-✅ **Week 3 complete – Docker fundamentals and Compose mastered.**  
-Next → **Week 4: Kubernetes Intro**
+---
