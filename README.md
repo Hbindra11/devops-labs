@@ -36,6 +36,14 @@ devops-labs/
 │ ├── week02_log.md # Daily notes for Week 2
 │ └── screenshots/ # Upload AWS & Kodekloud progress screenshots
 │
+week03_docker/
+│
+├── README.md                  # main summary
+├── week03_log.md              # daily log
+├── docker-lab-notes.md        # concepts, resources, troubleshooting notes
+├── docker-commands.md         # running list of Docker commands 
+└── screenshots/
+|
 ├── linux-commands.md # Linux commands reference – in progress
 │
 └── .github/workflows/ci.yml # GitHub Actions workflow – initial CI/CD setup (learning phase)
