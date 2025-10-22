@@ -50,9 +50,41 @@ Next, I plan to:
 - Begin preparing for **Week 4 – Kubernetes Intro**, where I’ll deploy Dockerized apps using Minikube and KodeKloud labs.
 
 ---
-**Screenshots:**
-![Nginx Container Running](./screenshots/nginx-container.png)
-![Docker Desktop Containers](./screenshots/docker-desktop.png)
-![Docker Compose Todo App](./screenshots/docker-compose-todo.png)
+---
+
+## 📸 Screenshots
+
+### 1️⃣ Running and Managing the Nginx Container  
+This screenshot shows the Visual Studio Code terminal where I:  
+- Pulled the Nginx image from Docker Hub  
+- Ran it with port mapping (`docker run -d -p 8080:80 nginx`)  
+- Verified running containers, then stopped and removed it  
+
+<p align="center">
+  <img src="./screenshots/nginx-container-vscode.png" alt="Running and managing Nginx container in VS Code terminal" width="75%">
+</p>
+
+---
+
+### 2️⃣ Docker Desktop – To-Do App Containers Running  
+After running `docker compose watch` from the *Getting Started To-Do App* folder, multiple containers (React front-end, Node back-end, and DB service) launched successfully.  
+This screenshot shows the Docker Desktop interface listing all running containers and their statuses.
+
+<p align="center">
+  <img src="./screenshots/docker-desktop-todo-containers.png" alt="Docker Desktop showing To-Do app containers running" width="80%">
+</p>
+
+---
+
+### 3️⃣ To-Do App Frontend in Browser  
+The To-Do web app frontend displayed successfully, confirming that the containerized full-stack setup (front-end + back-end + database) was working correctly.
+
+<p align="center">
+  <img src="./screenshots/todo-app-frontend.png" alt="To-Do app frontend running in browser" width="75%">
+</p>
+
+---
+
+
 
 ---
