@@ -66,7 +66,8 @@ The repository is being gradually structured as I progress through my **8-week D
   - Completed Week 2 documentation and reflection  
   - Started Docker training via *TechWorld with Nana* and *Docker Docs – Get Started Guide*  
   - Successfully ran Nginx container, explored Docker Desktop UI, and launched a multi-container To-Do app using `docker compose watch`
-- **Linux (KodeKloud):** Continuing Linux Basics course – currently 51% complete and aiming for 70% by the end of Week 3  
+- **Linux (KodeKloud):** Progressed from 51% → 73% completion. Covered networking, security, and file permissions; practiced commands for SSH, SCP, user management, and IP configuration.
+- **Docker (Docs Tutorial):** Completed “Developing with Containers” — successfully modified and reloaded the To-Do app in real time using `docker compose watch`. Next: build and push custom images to Docker Hub.
 - **CI/CD:** Initial GitHub Actions workflow set up for Node.js app; pipeline will be extended later for Dockerized deployments.
 
 ---
@@ -101,6 +102,8 @@ This week focuses on building a practical foundation in containerization and und
 | **19 Oct 2025** | Finished **Skill Builder Lab: Introduction to AWS Identity and Access Management (IAM)** — created IAM users, roles, and policies; tested access permissions. Earned completion certificate (screenshot uploaded). Updated `aws-lab-notes.md` with summary of IAM concepts and screenshots in `/week02_aws-labs/screenshots/`.|
 | **20 Oct 2025** | Reviewed progress to date — 51% completion of KodeKloud Linux Basics course; Kicked off **Week 3 – Docker Deep Dive**. Updated Docker Desktop to the latest version and verified setup by running the `hello-world` container. Began *TechWorld with Nana – Learn Docker in 2025* course and completed **Phase 1 – Docker Fundamentals**, practicing image pulling, running, stopping, and removing containers (Nginx example). |
 | **21 Oct 2025** | Continued with Docker learning — attempted **Phase 2 – Building Your Own Images**, then switched to the official **Docker Docs – Get Started Guide** for practical clarity. Ran `docker run -d -p 8080:80 docker/welcome-to-docker`, inspected container logs and filesystem, and cloned the **Getting Started To-Do App** project. Executed `docker compose watch` to launch the React frontend, Node backend, and database containers. Planned to modify the app source next. |
+| **22–23 Oct 2025** | Continued with the **Linux Basics for DevOps** course on KodeKloud. Reached **73% completion**, covering **networking**, **security**, and **file permissions** modules. Practiced commands for SSH, SCP, user/group management, permissions, and IP configuration. |
+| **23 Oct 2025** | Completed the **Docker Docs – Get Started tutorial**. Modified and tested both front-end and back-end of the *Getting Started To-Do App* while running `docker compose watch`. Verified live reloading in browser and prepared for final Docker tutorial on **building and pushing images**. |
 
 ---
 
