@@ -36,13 +36,18 @@ devops-labs/
 │ ├── week02_log.md           # Daily notes for Week 2
 │ └── screenshots/            # Upload AWS & Kodekloud progress screenshots
 │
-├──week03_docker/             # Docker Deep Dive - while continuing Kodekloud Linux & AWS training - Active
-├── README.md                 # main summary
-├── week03_log.md             # daily log
-├── docker-lab-notes.md       # concepts, resources, troubleshooting notes
-├── docker-commands.md        # running list of Docker commands 
-└── screenshots/
+├──week03_docker/             # Docker Deep Dive - while continuing Kodekloud Linux training & some more AWS Cloud Practitioner Essentials 
+| ├── README.md                 # main summary
+| ├── week03_log.md             # daily log
+| ├── docker-lab-notes.md       # concepts, resources, troubleshooting notes<
+| ├── docker-commands.md        # running list of Docker commands 
+| └── screenshots/
 |
+week04_kubernetes/
+| ├── README.md
+| ├── week04_log.md
+| ├── k8s-lab-notes.md
+| └── screenshots/
 ├── linux-commands.md # Linux commands reference – in progress
 │
 └── .github/workflows/ci.yml # GitHub Actions workflow – initial CI/CD setup (learning phase)
@@ -60,29 +65,42 @@ The repository is being gradually structured as I progress through my **8-week D
 - **Focus areas so far:**  
   - **Week 1:** Linux & AWS Kick-Start – EC2, S3 setup, AWS Free Tier, and Linux CLI practice  
   - **Week 2:** AWS & Linux Hands-on Labs – IAM, Networking, Security, and 51% Linux course progress  
-  - **Week 3 (in progress):** Docker Deep Dive – building hands-on experience with containers, images, and multi-service applications using Docker Compose  
+  - **Week 3:** Docker Deep Dive & Advanced Linux Practice & AWS Cloud Practitioner Essentials
 - **Recent accomplishments:**  
-  - Completed AWS Modules 5 (Networking – 86%) and 9 (Security – 100%), plus IAM Skill Builder lab  
-  - Completed Week 2 documentation and reflection  
-  - Started Docker training via *TechWorld with Nana* and *Docker Docs – Get Started Guide*  
-  - Successfully ran Nginx container, explored Docker Desktop UI, and launched a multi-container To-Do app using `docker compose watch`
-- **Linux (KodeKloud):** Progressed from 51% → 73% completion. Covered networking, security, and file permissions; practiced commands for SSH, SCP, user management, and IP configuration.
-- **Docker (Docs Tutorial):** Completed “Developing with Containers” — successfully modified and reloaded the To-Do app in real time using `docker compose watch`. Next: build and push custom images to Docker Hub.
+  - Completed Docker Docs tutorials on **Volumes**, **Networking**, and **Building & Pushing Images** to Docker Hub.  
+  - Successfully built and uploaded first image to Docker Hub after resolving Docker Desktop login issue.  
+  - Reached **84% completion** in *KodeKloud Linux Basics for DevOps* course — completed security, firewall (iptables), and service management labs using `systemctl` and `journalctl`.  
+  - Completed **AWS Cloud Practitioner Essentials Module 10 – Monitoring, Compliance & Governance** with **91%** score.  
 - **CI/CD:** Initial GitHub Actions workflow set up for Node.js app; pipeline will be extended later for Dockerized deployments.
 
 ---
 
-## 🧭 Coming Up – Week 3: Docker Deep Dive
+## 🧭 Coming Up – Week 4: Kubernetes Intro + Parallel Practice  
 
-This week focuses on building a practical foundation in containerization and understanding how Docker simplifies DevOps workflows.
+After completing Docker fundamentals and successfully building and publishing your first images to Docker Hub,  
+Week 4 will focus on **Kubernetes — the next step in container orchestration and automation**.  
+At the same time, I’ll continue practicing Docker and progressing through AWS Cloud Practitioner Essentials in parallel.
 
 **Objectives:**
-- Deepen understanding of container concepts and Docker architecture  
-- Build and manage containers using the CLI (`run`, `ps`, `stop`, `rm`)  
-- Develop a small app using Docker Compose (multi-container setup)  
-- Explore Docker Desktop’s interface for container inspection and logs  
-- Document all findings, commands, and screenshots in `week03_docker/`  
-- Continue AWS Module 10 (*Monitoring, Compliance, and Governance*) and Linux Basics (KodeKloud) in parallel
+- Understand Kubernetes core concepts: Pods, Nodes, Deployments, and Services  
+- Set up a local Kubernetes environment using **Minikube**  
+- Deploy and expose Dockerized applications using `kubectl`  
+- Practice scaling, rolling updates, and service management in Kubernetes  
+- Explore ConfigMaps, Secrets, and Persistent Volumes for stateful workloads  
+- Continue **Docker practice** — build and containerize more bootcamp web apps for hands-on learning  
+- Carry on with **AWS Cloud Practitioner Essentials** (remaining modules) to complete the 12.5-hour course  
+- Maintain progress in **KodeKloud Linux Basics** (currently at 84%) and aim for 100% completion  
+- Document all Kubernetes exercises, Docker builds, and AWS reflections in `week04_kubernetes/`
+
+📸 *Screenshots from Week 3* still to include:  
+- AWS Module 10 quiz score (**91%**)  
+- Dockerized **Pig Latin Translator** app running successfully  
+- KodeKloud **Linux Basics progress (84%)**  
+These will be uploaded under `/week03_docker/screenshots/`.
+
+🧩 *This week bridges Docker and Kubernetes, reinforcing container orchestration concepts while continuing cloud and Linux development for a complete DevOps foundation.*
+
+
 
 ---
 
@@ -102,8 +120,12 @@ This week focuses on building a practical foundation in containerization and und
 | **19 Oct 2025** | Finished **Skill Builder Lab: Introduction to AWS Identity and Access Management (IAM)** — created IAM users, roles, and policies; tested access permissions. Earned completion certificate (screenshot uploaded). Updated `aws-lab-notes.md` with summary of IAM concepts and screenshots in `/week02_aws-labs/screenshots/`.|
 | **20 Oct 2025** | Reviewed progress to date — 51% completion of KodeKloud Linux Basics course; Kicked off **Week 3 – Docker Deep Dive**. Updated Docker Desktop to the latest version and verified setup by running the `hello-world` container. Began *TechWorld with Nana – Learn Docker in 2025* course and completed **Phase 1 – Docker Fundamentals**, practicing image pulling, running, stopping, and removing containers (Nginx example). |
 | **21 Oct 2025** | Continued with Docker learning — attempted **Phase 2 – Building Your Own Images**, then switched to the official **Docker Docs – Get Started Guide** for practical clarity. Ran `docker run -d -p 8080:80 docker/welcome-to-docker`, inspected container logs and filesystem, and cloned the **Getting Started To-Do App** project. Executed `docker compose watch` to launch the React frontend, Node backend, and database containers. Planned to modify the app source next. |
-| **22–23 Oct 2025** | Continued with the **Linux Basics for DevOps** course on KodeKloud. Reached **73% completion**, covering **networking**, **security**, and **file permissions** modules. Practiced commands for SSH, SCP, user/group management, permissions, and IP configuration. |
+| **22 Oct 2025** | Continued with the **Linux Basics for DevOps** course on KodeKloud. Reached **73% completion**, covering **networking**, **security**, and **file permissions** modules. Practiced commands for SSH, SCP, user/group management, permissions, and IP configuration. |
 | **23 Oct 2025** | Completed the **Docker Docs – Get Started tutorial**. Modified and tested both front-end and back-end of the *Getting Started To-Do App* while running `docker compose watch`. Verified live reloading in browser and prepared for final Docker tutorial on **building and pushing images**. |
+| **24 Oct 2025** | Continued Docker Docs tutorials — explored **Volumes** and **Networking** while running the *Getting Started To-Do App* using `docker compose watch`. Understood how containers communicate within Docker networks and how volumes persist database data. Completed the **Dockerfile tutorial** — built a custom image, created a new repository on Docker Hub, and successfully pushed the image after troubleshooting Docker Desktop login. |
+| **25 Oct 2025** | Completed **AWS Cloud Practitioner Essentials – Module 10: Monitoring, Compliance & Governance**. Scored **91%** in the quiz and reviewed CloudWatch, CloudTrail, and AWS Config. |
+| **26 Oct 2025** | Continued **Linux Basics on KodeKloud**, reaching **84% completion**. Covered *Security & File Permissions (iptables)* and *Service Management* modules, including cron jobs, systemd targets, and log inspection with `journalctl`. |
+| **27 Oct 2025** | Practiced Docker further — built a Dockerfile for a **JavaScript CLI Pig Latin Translator** project (from bootcamp). Successfully built an image and ran it as a container. |
 
 ---
 
