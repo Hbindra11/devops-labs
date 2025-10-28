@@ -91,6 +91,7 @@ At the same time, I’ll continue practicing Docker and progressing through AWS 
 - Carry on with **AWS Cloud Practitioner Essentials** (remaining modules) to complete the 12.5-hour course  
 - Maintain progress in **KodeKloud Linux Basics** (currently at 84%) and aim for 100% completion  
 - Document all Kubernetes exercises, Docker builds, and AWS reflections in `week04_kubernetes/`
+- Complete the **Docker for the Absolute Beginner** course on *KodeKloud* (4-hour free training) to strengthen Docker fundamentals and lab-based confidence.
 
 📸 *Screenshots from Week 3* still to include:  
 - AWS Module 10 quiz score (**91%**)  
