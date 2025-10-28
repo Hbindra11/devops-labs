@@ -90,7 +90,7 @@ It includes navigation, user management, permissions, processes, networking, sys
 | `ip route` | Display the routing table (modern equivalent) | `ip route` |
 | `ip route add <network>/<cidr> via <gateway>` | Add a route to the routing table | `sudo ip route add 192.168.1.0/24 via 192.168.2.1` |
 | `traceroute <ip>` | Show the network hops from your system to a destination | `traceroute 8.8.8.8` |
-| `netstat -an | grep <port>` | Display active network connections filtered by port | `netstat -an | grep 80 | grep -i LISTEN` |
+| `netstat -an ´|´ grep <port>` | Display active network connections filtered by port | `netstat -an `|` grep 80 `|` grep -i LISTEN` |
 
 ---
 
@@ -142,6 +142,52 @@ It includes navigation, user management, permissions, processes, networking, sys
 - SSH requires an SSH service running on port 22 on the remote host.  
 - Once keys are exchanged, you can log in passwordlessly using your private key.  
 ---
+
+## 🔥 Firewall Management (iptables)
+
+| Command | Description | Example |
+|----------|--------------|----------|
+| `sudo apt install iptables` | Install `iptables` if it’s not preinstalled on the system | `sudo apt install iptables` |
+| `sudo iptables -L` | List all existing firewall rules | `sudo iptables -L` |
+| `sudo iptables -A INPUT -p tcp -s <source_ip> --dport <port> -j ACCEPT` | Add a new rule to allow incoming TCP traffic from a specific IP and port | `sudo iptables -A INPUT -p tcp -s 172.16.238.187 --dport 22 -j ACCEPT` |
+| `sudo iptables -D OUTPUT <rule_number>` | Delete a rule from the OUTPUT chain based on its position number | `sudo iptables -D OUTPUT 5` |
+
+---
+
+## ⏰ Task Scheduling (cron)
+
+| Command | Description | Example |
+|----------|--------------|----------|
+| `crontab -e` | Edit scheduled cron jobs for the current user | `crontab -e` |
+| `crontab -l` | List all cron jobs scheduled for the current user | `crontab -l` |
+
+---
+
+## ⚙️ Service Management & Logging (systemd)
+
+| Command | Description | Example |
+|----------|--------------|----------|
+| `systemctl daemon-reload` | Reload systemd manager configuration after unit file changes | `sudo systemctl daemon-reload` |
+| `systemctl start <service>` | Start a service immediately | `sudo systemctl start docker` |
+| `systemctl stop <service>` | Stop a running service | `sudo systemctl stop docker` |
+| `systemctl restart <service>` | Restart a service | `sudo systemctl restart docker` |
+| `systemctl reload <service>` | Reload configuration without stopping the service | `sudo systemctl reload docker` |
+| `systemctl enable <service>` | Enable a service to start automatically at boot | `sudo systemctl enable docker` |
+| `systemctl disable <service>` | Disable auto-start for a service | `sudo systemctl disable docker` |
+| `systemctl edit <service> --full` | Edit a service unit file directly in the default editor | `sudo systemctl edit project-mercury.service --full` |
+| `systemctl get-default` | Show the current default runlevel/target | `systemctl get-default` |
+| `systemctl set-default <target>` | Change the system’s default target | `sudo systemctl set-default multi-user.target` |
+| `systemctl list-units --all` | List all systemd units (active/inactive) | `systemctl list-units --all` |
+| `journalctl` | View all system logs (persistent + previous boots) | `sudo journalctl` |
+| `journalctl -b` | Show only logs from the current boot | `sudo journalctl -b` |
+| `journalctl -u <service>` | Show logs for a specific service | `sudo journalctl -u docker` |
+
+---
+
+**Note:**  
+- `iptables` rules are **not persistent** after a reboot unless saved or managed through a service like `netfilter-persistent`.  
+- `cron` uses the system’s `crond` service to run scheduled tasks — always verify jobs using `crontab -l`.  
+- `systemctl` and `journalctl` are part of **systemd**, which manages services, logs, and system state on most modern Linux distributions.
 
 🧩 *These commands were practiced using KodeKloud Playgrounds and Boot.dev labs as part of my DevOps foundational learning.*
 
