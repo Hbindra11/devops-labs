@@ -74,10 +74,11 @@
 ---
 
 ### 📅 Next Steps
-- Conclude **Docker Deep Dive** by building and pushing a few more images for bootcamp web apps to reinforce containerization skills.  
-- Begin **Week 4 – Kubernetes Intro**, focusing on container orchestration using **Minikube** and `kubectl`.  
-- Deploy existing Dockerized projects to a local Kubernetes cluster to understand Pods, Deployments, and Services in action.  
-- Continue progressing through the **AWS Cloud Practitioner Essentials** course (remaining modules) and log completion results.  
-- Complete the final **KodeKloud Linux Basics** labs to reach 100 % and summarize key takeaways.  
-- Document all new Kubernetes labs, AWS milestones, and Docker experiments in their respective folders for Week 4.
+- Conclude **Docker Deep Dive** by containerizing more bootcamp apps and refining image builds.  
+- Enroll in and complete **KodeKloud – Docker for the Absolute Beginner** (4-hour course) to strengthen conceptual and practical understanding.  
+- Begin **Week 4 – Kubernetes Intro**, focusing on orchestration using **Minikube** and `kubectl`.  
+- Continue with the **AWS Cloud Practitioner Essentials** course (remaining modules) and document completion progress.  
+- Finish **KodeKloud Linux Basics** to reach 100%, reviewing automation and service management concepts.  
+- Document new Kubernetes and Docker labs, along with AWS updates, in the upcoming Week 4 folder.
+
   
