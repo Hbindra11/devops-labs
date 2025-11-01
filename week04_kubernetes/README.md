@@ -84,7 +84,17 @@ This mix of container orchestration and cloud services learning has given me a s
 
 ---
 
-📸 *Screenshots, YAML examples, and command outputs for this week will be stored in the [`/week04_kubernetes/screenshots/`](./screenshots/) folder.*  
+## 🖼️ Screenshots & Evidence
+
+| **Activity** | **Description** | **Status** | **Evidence** |
+|---------------|------------------|-------------|---------------|
+| **AWS Cloud Practitioner Essentials – Module 7 (Databases)** | Completed the Databases module covering RDS, DynamoDB, Aurora, and Redshift. Scored **86%** in the final quiz. | ✅ Completed | <img src="./screenshots/aws-cpe-module7-databases-quiz.png" alt="AWS Module 7 Databases quiz score 86%" width="75%"> |
+| **AWS Cloud Practitioner Essentials – Module 2 (Compute in the Cloud)** | Revisited and completed the Compute module focusing on EC2, instance types, AMIs, and scaling. Scored **86%** in the quiz. | ✅ Completed | <img src="./screenshots/aws-cpe-module2-compute-cloud-quiz.png" alt="AWS Module 2 Compute quiz score 86%" width="75%"> |
+| **KodeKloud – Kubernetes for Absolute Beginners** | Continued Kubernetes learning to **51% completion**. Covered YAML fundamentals, Pods, ReplicaSets, and Deployments through interactive labs. | ✅ In Progress | <img src="./screenshots/kodekloud-kubernetes-51pct.png" alt="KodeKloud Kubernetes beginners course 51% progress" width="75%"> |
+
+---
+
+📸 *All screenshots were captured during Week 4 (Oct 29 – Nov 1, 2025) as part of the Kubernetes Intro & AWS parallel learning phase of my 8-Week DevOps Foundations Practice Plan.*
 
 ---
 📘 These notes reflect progress up to 53% completion of the KodeKloud Kubernetes for Absolute Beginners course (as of Nov 1, 2025), as part of my 8-Week DevOps Foundations Practice Plan.
