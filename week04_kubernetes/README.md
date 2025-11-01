@@ -15,7 +15,6 @@
 - Prepare for upcoming **hands-on setup** with Minikube and kubectl  
 - Continue parallel learning:  
   - **AWS Cloud Practitioner Essentials** (Modules 11–12)  
-  - **KodeKloud Docker for Absolute Beginners** (~50%)  
   - Complete **KodeKloud Linux Basics** (100%)  
 
 ---
@@ -33,33 +32,45 @@
 
 ---
 
-## 📘 Progress Summary  
+## 📘 Progress Summary (as of Nov 1, 2025)
 
 I officially began Week 4 on **October 29, 2025**, starting with the **KodeKloud Kubernetes for Absolute Beginners** course.  
-Following the recommended order, I completed **25% of the course**, focusing on foundational concepts before attempting a Minikube setup.  
+I continued progressing steadily through the **KodeKloud Kubernetes for Absolute Beginners** course, expanding my understanding from Pods to more complex Kubernetes objects.  
+By the end of Day 4, I reached **53% completion**, having covered:
 
-### Key Concepts Covered So Far  
-- What Kubernetes is and how it orchestrates containerized applications  
-- The relationship between **Docker** and **Kubernetes**  
-- **Pods** – smallest deployable unit in Kubernetes  
-- **Nodes** – worker machines that run Pods  
-- **Control Plane Components** – API Server, Scheduler, Controller Manager  
-- The **Kubelet** and **kubectl** tools for managing workloads  
-- Watched a demo on **Minikube installation** but postponed setup until later in the course, as recommended  
+- YAML fundamentals and Kubernetes object definitions  
+- Creating Pods using YAML and managing them via the KodeKloud labs  
+- Understanding **Replication Controllers** and **ReplicaSets**  
+- Starting **Deployments** – learning about scaling, self-healing, and rolling updates  
 
-The structured explanations in KodeKloud made complex topics approachable and provided visual clarity on how container orchestration simplifies deployment and scaling.
+In parallel, I switched focus to **AWS Cloud Practitioner Essentials**, reinforcing cloud service fundamentals.  
+- Completed **Module 7 – Databases**, scoring **86%** in the quiz.  
+- Revisited and completed **Module 2 – Compute in the Cloud**, also scoring **86%**.  
+
+This mix of container orchestration and cloud services learning has given me a stronger sense of how DevOps integrates automation, scalability, and infrastructure management in practice.
+
+
+### 🔑 Key Concepts Covered So Far
+
+#### ☸️ Kubernetes (KodeKloud – Kubernetes for Absolute Beginners)
+- **YAML Fundamentals:** Learned how Kubernetes objects are defined declaratively using YAML files with `apiVersion`, `kind`, `metadata`, and `spec` fields.  
+- **Creating Pods with YAML:** Practiced writing Pod manifests and deploying them via KodeKloud labs, understanding how Pods act as the smallest deployable units in Kubernetes.  
+- **Replication Controllers & ReplicaSets:** Learned how ReplicaSets maintain the desired number of Pod replicas and ensure self-healing if a Pod fails.  
+- **Deployments:** Explored how Deployments manage ReplicaSets and support rolling updates, rollbacks, and version control for application updates.  
+- **Declarative vs Imperative Management:** Gained a clearer understanding of why Kubernetes favors declarative state management (`kubectl apply`) over direct imperative commands.  
+- **Cluster Architecture (Recap):** Reinforced the roles of the Control Plane components (API Server, Scheduler, Controller Manager, etc.) and Worker Nodes in maintaining cluster stability.  
+
+#### ☁️ AWS Cloud Practitioner Essentials (Parallel Learning)
+- **Module 7 – Databases:** Learned about AWS database options including **RDS**, **DynamoDB**, **Aurora**, and **Redshift**; completed with an **86%** quiz score.  
+- **Module 2 – Compute in the Cloud (Revisited):** Revisited EC2 concepts (instances, AMIs, scaling, pricing models) and completed the quiz with **86%**.  
+- Strengthened understanding of how compute, storage, and database services integrate within AWS architectures — valuable context for deploying containerized apps later.  
 
 ---
 
-## 🧠 Reflection  
-
-This week marked the transition from single-container management (Docker) to **cluster-level orchestration** with Kubernetes.  
-Starting with theory-first learning has given me a strong mental model for how the system works before touching configurations.  
-Understanding how Kubernetes abstracts and manages containers is already helping me connect concepts from earlier Docker exercises to real-world DevOps workflows.
-
-Parallel progress in AWS and Docker continues to reinforce the bigger DevOps picture — how cloud, containers, and automation all tie together.
+🧭 *Up next:* Continue Kubernetes course to cover **Services**, **ConfigMaps**, and **Secrets**, then begin **Minikube setup** and `kubectl` practice.
 
 ---
+
 
 ## 🗓️ Next Steps  
 
