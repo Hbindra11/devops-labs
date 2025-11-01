@@ -44,7 +44,7 @@ By the end of Day 4, I reached **53% completion**, having covered:
 - Starting **Deployments** – learning about scaling, self-healing, and rolling updates  
 
 In parallel, I switched focus to **AWS Cloud Practitioner Essentials**, reinforcing cloud service fundamentals.  
-- Completed **Module 7 – Databases**, scoring **86%** in the quiz.  
+- Completed **Module 7 – Databases**, scoring **83%** in the quiz.  
 - Revisited and completed **Module 2 – Compute in the Cloud**, also scoring **86%**.  
 
 This mix of container orchestration and cloud services learning has given me a stronger sense of how DevOps integrates automation, scalability, and infrastructure management in practice.
