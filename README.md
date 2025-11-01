@@ -26,7 +26,7 @@ Each week focuses on one or more practical skill areas — including labs, notes
 ```
 devops-labs/
 │
-├── week01_lab-setup/         # Linux & AWS foundations – completed
+├── week01_lab-setup/         # Linux & AWS foundations
 │ ├── README.md               # Week 1 summary (Linux + AWS theory)
 │ ├── week01_log.md           # Daily learning log with progress notes
 │ ├── aws-lab-notes.md        # Notes from AWS Cloud Practitioner Essentials
@@ -34,17 +34,17 @@ devops-labs/
 │
 ├── week02_aws-labs/          # AWS & Linux hands-on labs 
 │ ├── README.md               # Weekly overview, goals, reflection
-│ ├── week02_log.md           # Daily notes for Week 2
-│ └── screenshots/            # Upload AWS & Kodekloud progress screenshots
+│ ├── week02_log.md           # Daily log for Week 2
+│ └── screenshots/           
 │
 ├──week03_docker/             # Docker Deep Dive - while continuing Kodekloud Linux training & some more AWS Cloud Practitioner Essentials 
-| ├── README.md               # main summary
+| ├── README.md               # Weekly overview, goals, reflection
 | ├── week03_log.md           # daily log
 | ├── docker-lab-notes.md     # concepts, resources, troubleshooting notes
 | ├── docker-commands.md      # running list of Docker commands 
 | └── screenshots/
 |
-week04_kubernetes/              # Kubernetes Intro & Orchestration
+week04_kubernetes/              # Kubernetes Intro & Orchestration - Active
 | ├── README.md                 # main summary
 | ├── week04_log.md             # daily log             
 | ├── k8s-lab-notes.md          # concepts & resources
@@ -59,26 +59,18 @@ The repository is being gradually structured as I progress through my **8-week D
 
 ---
 
-## 📊 Progress Summary
+## 📊 Overall Progress Summary (as of Nov 1, 2025)
 
-**Current Phase:** Week 4 – *Kubernetes Intro & Orchestration* (Oct 29 – Nov 5, 2025)
+| **Topic / Skill Area** | **Platform / Resource** | **Current Progress** | **Key Highlights & Achievements** |
+|--------------------------|-------------------------|----------------------|-----------------------------------|
+| **Kubernetes for Absolute Beginners** | KodeKloud | **53% Complete** | Learned Kubernetes architecture, Pods, YAML basics, Replication Controllers, and ReplicaSets. Began Deployments module with hands-on labs. |
+| **AWS Cloud Practitioner Essentials** | AWS Skill Builder | **~65% Complete** | Completed Modules 2 (*Compute in the Cloud*), 6 (*Storage*), 7 (*Databases*), and 10 (*Monitoring & Governance*). Scored **86–91%** in quizzes. |
+| **Linux Basics for DevOps** | KodeKloud | **84% Complete** | Covered user management, permissions, cron jobs, iptables, and systemctl. Final modules pending completion. |
+| **CI/CD & Automation (Intro)** | GitHub Actions | **Initial Setup Done** | Created first basic CI workflow (`.github/workflows/ci.yml`). Will expand to include Docker build & deploy automation in later weeks. |
 
-I’ve now completed the first three weeks of my DevOps learning plan:
+---
 
-- **Weeks 1–2:** Linux & AWS foundations (KodeKloud + AWS Skill Builder labs)  
-- **Week 3:** Docker fundamentals, Docker Compose, and first custom image push to Docker Hub  
-- **Week 4 (in progress):** Starting Kubernetes — focusing on understanding orchestration and cluster architecture  
-
-This week, I’ve:
-- Enrolled in the **KodeKloud – Kubernetes for Absolute Beginners** course  
-- Completed **25%** of the course so far, covering:  
-  - Kubernetes architecture, Pods, Nodes, and the Control Plane  
-  - Integration between Docker and Kubernetes  
-  - Watched the Minikube installation demo (will install later when required in the labs)  
-- Continuing in parallel:  
-  - **AWS Cloud Practitioner Essentials** (next modules and labs)  
-  - **KodeKloud Docker for Absolute Beginners** (reinforcing fundamentals)  
-  - Final **KodeKloud Linux Basics** labs (security, automation, service management)
+📘 *This table provides a quick snapshot of progress across all ongoing DevOps learning domains as part of my 8-Week DevOps Foundations Practice Plan.*
 
 ---
 
@@ -87,8 +79,7 @@ This week, I’ve:
 - Continue **KodeKloud Kubernetes for Absolute Beginners** (target ≥ 60% by week’s end)  
 - Start **Minikube setup and kubectl hands-on labs** once course modules reach installation section  
 - Practice first Kubernetes deployment and service exposure  
-- Continue **AWS Cloud Practitioner Essentials** (Modules 11–12)  
-- Advance **KodeKloud Docker for Absolute Beginners** (~50%)  
+- Continue **AWS Cloud Practitioner Essentials** (Modules 2 & 7 )  
 - Complete final Linux Basics lessons and record summary notes  
 - Document Kubernetes learnings and screenshots in `week04_kubernetes/`  
 
@@ -124,6 +115,9 @@ This week, I’ve:
 | **Oct 26–27, 2025** | Advanced KodeKloud Linux Basics to 84%, covering iptables, cron, and systemctl. Containerized Pig Latin Translator app in Docker. |
 | **Oct 28, 2025** | Closed Week 3 documentation and repo updates. Planned Week 4 learning schedule. |
 | **Oct 29, 2025** | Began Week 4 – *Kubernetes Intro*. Completed 25% of the **KodeKloud Kubernetes for Absolute Beginners** course. Learned about cluster components, Pods, Nodes, and API server functions. Held off Minikube installation per course recommendation. |
+| **Oct 30, 2025** | Reached 40% in Kubernetes course — learned YAML structure and created Pods with manifests via labs. |
+| **Oct 31, 2025** | Reached 53% in KodeKloud Kubernetes course — covered Replication Controllers, ReplicaSets, and started Deployments. Began AWS Module 7 (Databases). |
+| **Nov 1, 2025** | Completed AWS Cloud Practitioner Module 7 (Databases) and Module 2 (Compute in the Cloud) — scored 86% in both quizzes. |
 
 ---
 
