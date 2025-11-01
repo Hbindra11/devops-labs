@@ -14,7 +14,7 @@
 - Follow the **KodeKloud “Kubernetes for Absolute Beginners”** course to build a conceptual foundation  
 - Prepare for upcoming **hands-on setup** with Minikube and kubectl  
 - Continue parallel learning:  
-  - **AWS Cloud Practitioner Essentials** (Modules 11–12)  
+  - **AWS Cloud Practitioner Essentials** (Modules 2, 7)  
   - Complete **KodeKloud Linux Basics** (100%)  
 
 ---
@@ -71,17 +71,22 @@ This mix of container orchestration and cloud services learning has given me a s
 
 ---
 
-
 ## 🗓️ Next Steps  
 
-- Continue the **KodeKloud Kubernetes for Absolute Beginners** course to **≥ 60% completion**  
-- Set up **Minikube** and practice creating Pods and Deployments once setup lessons appear  
-- Begin using **kubectl** commands and YAML manifests for configuration  
+- Continue the **KodeKloud Kubernetes for Absolute Beginners** course to cover:
+  -   Services (ClusterIP, NodePort, LoadBalancer)
+  -   ConfigMaps and Secrets
+  -   **kubectl** command practice for Deployments and Services
 - Explore **Services** and how Kubernetes exposes applications  
-- Continue **AWS Cloud Practitioner Essentials** (Modules 11–12) and complete related labs  
-- Advance **KodeKloud Docker for Absolute Beginners** to ~50% completion  
-- Finish **Linux Basics** course and summarize key commands and concepts  
+- Set up **Minikube** and practice creating Pods and Deployments once setup lessons appear
+- Finish **Linux Basics** course and summarize key commands and concepts
+- Add YAML and CLI output screenshots to /week04_kubernetes/screenshots/.
 
 ---
 
 📸 *Screenshots, YAML examples, and command outputs for this week will be stored in the [`/week04_kubernetes/screenshots/`](./screenshots/) folder.*  
+
+---
+📘 These notes reflect progress up to 53% completion of the KodeKloud Kubernetes for Absolute Beginners course (as of Nov 1, 2025), as part of my 8-Week DevOps Foundations Practice Plan.
+
+---
