@@ -32,22 +32,36 @@
 
 ---
 
-## 📘 Progress Summary (as of Nov 1, 2025)
+## 📘 Progress Summary (as of Nov 4, 2025)
 
-I officially began Week 4 on **October 29, 2025**, starting with the **KodeKloud Kubernetes for Absolute Beginners** course.  
-I continued progressing steadily through the **KodeKloud Kubernetes for Absolute Beginners** course, expanding my understanding from Pods to more complex Kubernetes objects.  
-By the end of Day 4, I reached **53% completion**, having covered:
+I officially began **Week 4** on **October 29, 2025**, focusing on the **KodeKloud – Kubernetes for Absolute Beginners** course.  
+Throughout the week, I made steady progress—advancing from basic Pod concepts to more complex Kubernetes objects.  
+By **Day 4**, I reached **53% completion**, having covered:
 
-- YAML fundamentals and Kubernetes object definitions  
-- Creating Pods using YAML and managing them via the KodeKloud labs  
+- YAML fundamentals and Kubernetes object structures  
+- Pod creation and management via KodeKloud labs  
 - Understanding **Replication Controllers** and **ReplicaSets**  
-- Starting **Deployments** – learning about scaling, self-healing, and rolling updates  
+- Introduction to **Deployments** — scaling, self-healing, and rolling updates  
 
-In parallel, I switched focus to **AWS Cloud Practitioner Essentials**, reinforcing cloud service fundamentals.  
-- Completed **Module 7 – Databases**, scoring **83%** in the quiz.  
-- Revisited and completed **Module 2 – Compute in the Cloud**, also scoring **86%**.  
+In parallel, I revisited **AWS Cloud Practitioner Essentials**, strengthening my understanding of cloud fundamentals:  
+- Completed **Module 7 – Databases**, scoring **83%**  
+- Revisited and completed **Module 2 – Compute in the Cloud**, scoring **86%**
 
-This mix of container orchestration and cloud services learning has given me a stronger sense of how DevOps integrates automation, scalability, and infrastructure management in practice.
+This week also consolidated two essential DevOps foundations: **Linux systems administration** and **Kubernetes orchestration**.
+
+- **Linux Basics for DevOps (KodeKloud)** – ✅ *Completed (100%)*  
+  - Covered disk partitioning, file systems, storage types (DAS, NAS, SAN), NFS, and LVM  
+  - Practiced commands (`mkfs`, `mount`, `blkid`) and completed hands-on storage labs  
+  - Earned a **certificate of completion** 🎓  
+
+- **Kubernetes for Absolute Beginners (KodeKloud)** – *Progress: 60%*  
+  - Completed Deployments → Update & Rollback modules with labs  
+  - Practiced commands: `kubectl set image`, `rollout status`, `rollout undo`  
+  - Plan to install **Minikube** after completing the remaining modules  
+
+By the end of Week 4, I strengthened my Linux infrastructure skills while deepening my understanding of container management and cluster operations in Kubernetes.  
+
+This blend of **container orchestration** and **cloud service learning** continues to enhance my grasp of how DevOps unites automation, scalability, and infrastructure management in real-world practice.
 
 
 ### 🔑 Key Concepts Covered So Far
@@ -64,6 +78,19 @@ This mix of container orchestration and cloud services learning has given me a s
 - **Module 7 – Databases:** Learned about AWS database options including **RDS**, **DynamoDB**, **Aurora**, and **Redshift**; completed with an **86%** quiz score.  
 - **Module 2 – Compute in the Cloud (Revisited):** Revisited EC2 concepts (instances, AMIs, scaling, pricing models) and completed the quiz with **86%**.  
 - Strengthened understanding of how compute, storage, and database services integrate within AWS architectures — valuable context for deploying containerized apps later.  
+#### Week 4 Highlights – Linux & Kubernetes Advancement
+
+**Linux Storage & File Systems**
+- Explored physical and logical storage (DAS, NAS, SAN) concepts.  
+- Practiced mounting file systems (`mkfs`, `mount`, `blkid`) and configuring NFS shares.  
+- Implemented LVM (Logical Volume Management) in KodeKloud labs for flexible storage allocation.  
+- Completed *Linux Basics for DevOps* (100 %) and earned certificate.
+
+**Kubernetes Deployments & Rollouts**
+- Mastered how Deployments manage ReplicaSets and enable rolling updates and rollbacks.  
+- Practiced commands: `kubectl set image`, `kubectl rollout status`, `kubectl rollout undo`.  
+- Gained hands-on experience controlling application version updates and ensuring cluster stability.  
+- Reached 60 % in *Kubernetes for Absolute Beginners* course.  
 
 ---
 
@@ -91,6 +118,8 @@ This mix of container orchestration and cloud services learning has given me a s
 | **AWS Cloud Practitioner Essentials – Module 7 (Databases)** | Completed the Databases module covering RDS, DynamoDB, Aurora, and Redshift. Scored **83%** in the final quiz. | ✅ Completed | <img src="./screenshots/aws-cpe-module7-databases-quiz.png" alt="AWS Module 7 Databases quiz score 83%" width="75%"> |
 | **AWS Cloud Practitioner Essentials – Module 2 (Compute in the Cloud)** | Revisited and completed the Compute module focusing on EC2, instance types, AMIs, and scaling. Scored **86%** in the quiz. | ✅ Completed | <img src="./screenshots/aws-cpe-module2-compute-cloud-quiz.png" alt="AWS Module 2 Compute quiz score 86%" width="75%"> |
 | **KodeKloud – Kubernetes for Absolute Beginners** | Continued Kubernetes learning to **51% completion**. Covered YAML fundamentals, Pods, ReplicaSets, and Deployments through interactive labs. | ✅ In Progress | <img src="./screenshots/kodekloud-kubernetes-51pct.png" alt="KodeKloud Kubernetes beginners course 51% progress" width="75%"> |
+| **KodeKloud Linux Basics for DevOps – Course Completion** | Completed all modules including storage, NFS, and LVM. Earned certificate of completion. | ✅ Completed | <img src="./screenshots/kodekloud-linux-basics-certificate-2025-11-03.png" alt="KodeKloud Linux Basics course certificate" width="75%"> |
+| **Kubernetes for Absolute Beginners – 60 % Progress** | Continued through Deployments (Updates & Rollbacks) with hands-on labs. | ✅ In Progress | <img src="./screenshots/kodekloud-kubernetes-beginners-dashboard-60pct.png" alt="KodeKloud Kubernetes course 60% progress" width="75%"> |
 
 ---
 
