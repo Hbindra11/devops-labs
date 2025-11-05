@@ -26,7 +26,7 @@
 
 ## 🧠 Notes from Course Progress  
 
-- Completed **51%** of the KodeKloud Kubernetes for Absolute Beginners course.  
+- Completed **61%** of the KodeKloud Kubernetes for Absolute Beginners course.  
 - Covered the following sections so far:  
   - What is Kubernetes and why it’s needed.  
   - Understanding Containers vs Pods.  
@@ -42,44 +42,103 @@
 - Learned to describe resources using `kubectl describe pod <pod-name>` for troubleshooting.  
 
 ### ReplicaSets & Deployments
-- Created ReplicaSets from YAML and observed how scaling works by adjusting `replicas` value.  
+- Created ReplicaSets from YAML and observed how scaling works by adjusting the `replicas` value.  
 - Deleted Pods manually to observe self-healing behavior — Kubernetes automatically recreated missing Pods.  
-- Learned how Deployments manage ReplicaSets and handle rolling updates using the `strategy` field in YAML.  
-- Executed lab exercises simulating version upgrades of container images using `kubectl set image`.
+- Learned how Deployments manage ReplicaSets and handle **rolling updates** using the `strategy` field in YAML.  
+- Executed lab exercises simulating **version upgrades** of container images using `kubectl set image`.  
+- Observed how Kubernetes gradually replaced old Pods with new ones while maintaining application availability.  
+- Used `kubectl rollout status` to monitor ongoing updates and confirm successful rollouts.  
+- Practiced **rollback operations** using `kubectl rollout undo`, reverting Deployments to previous stable versions.  
+- Viewed **Deployment revision history** with `kubectl rollout history` and learned how to revert to a specific revision using `--to-revision`.  
+- Explored how Deployment YAML manifests define update strategies (`RollingUpdate`, `Recreate`) and their parameters (e.g., `maxUnavailable`, `maxSurge`).  
+- Understood how Deployments encapsulate ReplicaSets to provide version control, consistency, and easy recovery from failed updates.
 
 ---
 
-## ⚙️ Commands Reference
+# ⚙️ Kubectl Commands Reference (Consolidated)
+
+## 🧭 General Cluster Info
 
 | **Command** | **Description** | **Example / Notes** |
 |--------------|-----------------|---------------------|
-| `kubectl` | Main Kubernetes command-line utility (pronounced *cube control*). Used to deploy, inspect, and manage Kubernetes resources. | `kubectl --help` |
-| `kubectl cluster-info` | Displays basic information about the cluster and control plane endpoints. | Shows API server and DNS URLs. |
-| `kubectl get nodes` | Lists all worker nodes part of the cluster. | Useful to verify node readiness. |
-| `kubectl get pods` | Lists all running Pods in the current namespace. | Add `-o wide` to see Node assignment and Pod IPs. |
-| `kubectl get pods -o wide` | Shows Pods with detailed info like node names and internal IPs. | `kubectl get pods -o wide` |
-| `kubectl run <application-name>` | Deploys an application (creates a Pod running the specified image). | `kubectl run nginx --image=nginx` |
-| `kubectl run <podname> --image <imagename>` | Creates a Pod running a container from the specified image (by default, from Docker Hub). | `kubectl run redis --image=redis` |
-| `kubectl run redis --image=redis123 --dry-run=client -o yaml > redis.yaml` | Generates a Pod definition YAML file without actually creating it (useful shortcut for defining manifests). | Creates a `redis.yaml` template file. |
-| `kubectl create -f <file>.yaml` | Creates a resource (Pod, ReplicaSet, etc.) from a YAML definition. | `kubectl create -f pod-definition.yaml` |
-| `kubectl apply -f <file>.yaml` | Applies or updates configuration defined in a YAML file (idempotent). | Use instead of `create` for updates. |
-| `kubectl describe pod <pod-name>` | Displays detailed information about a Pod, including events and container states. | Helpful for debugging. |
-| `kubectl get replicationcontroller` | Lists all ReplicationControllers in the cluster. | Legacy controller type (mostly replaced by ReplicaSets). |
-| `kubectl create -f rc-definition.yml` | Creates a ReplicationController from a YAML definition. | Must include labels and selectors. |
-| `kubectl get replicaset` | Lists all ReplicaSets in the cluster. | Check replica counts and status. |
-| `kubectl scale --replicas=<n> -f <file>.yaml` | Scales resources to the desired number of replicas using a definition file. | `kubectl scale --replicas=6 -f replicaset-definition.yml` |
-| `kubectl scale --replicas=<n> replicaset <name>` | Scales a ReplicaSet directly by name. | `kubectl scale --replicas=6 replicaset myapp-replicaset` |
-| `kubectl replace -f <file>.yaml` | Replaces an existing resource with the configuration in a YAML file. | Used when updating existing object definitions. |
-| `kubectl edit replicaset <name>` | Opens and edits a ReplicaSet’s configuration directly in the terminal editor. | Changes are applied immediately. |
-| `kubectl delete replicaset <name>` | Deletes a ReplicaSet and its underlying Pods. | `kubectl delete replicaset myapp-replicaset` |
-| `kubectl delete pods --all` | Deletes all Pods in the current namespace. | Useful for resetting lab environments. |
-| `kubectl get all` | Displays all Kubernetes resources in the current namespace. | Includes Pods, ReplicaSets, Deployments, Services, etc. |
+| `kubectl` | Main Kubernetes CLI (pronounced *cube control*). Used to deploy, inspect, and manage resources. | `kubectl --help` |
+| `kubectl cluster-info` | Displays cluster and control plane endpoints. | Shows API server and DNS URLs. |
+| `kubectl get nodes` | Lists all worker nodes in the cluster. | Verify node readiness. |
+| `kubectl get all` | Displays all resources (Pods, ReplicaSets, Deployments, Services, etc.) in the current namespace. | Good for full overview. |
+
+---
+
+## 🧱 Pods
+
+| **Command** | **Description** | **Example / Notes** |
+|--------------|-----------------|---------------------|
+| `kubectl get pods` | Lists all Pods in the current namespace. | Add `-o wide` for Node/IP info. |
+| `kubectl get pods -o wide` | Lists Pods with detailed info such as Node names and IPs. | `kubectl get pods -o wide` |
+| `kubectl run <pod-name> --image <image>` | Creates a Pod running a container from the specified image. | `kubectl run redis --image=redis` |
+| `kubectl run <name> --image=<image> --dry-run=client -o yaml > <file>.yaml` | Generates a Pod manifest without creating it. | Useful for templates, e.g. `redis.yaml`. |
+| `kubectl describe pod <pod-name>` | Shows detailed info about a Pod, including container states and events. | Helpful for debugging. |
+| `kubectl delete pods --all` | Deletes all Pods in the current namespace. | Useful for lab resets. |
+| `kubectl get pods -l app=<label>` | Lists Pods by label selector. | `kubectl get pods -l app=nginx` |
+| `kubectl delete pods -l app=<label>` | Deletes all Pods matching a label (controller recreates them). | `kubectl delete pods -l app=nginx` |
+
+---
+
+## ⚙️ YAML & Resource Management
+
+| **Command** | **Description** | **Example / Notes** |
+|--------------|-----------------|---------------------|
+| `kubectl create -f <file>.yaml` | Creates a resource from a manifest. | `kubectl create -f pod.yaml` |
+| `kubectl apply -f <file>.yaml` | Applies or updates configuration from a manifest (idempotent). | Preferred over `create` for updates. |
+| `kubectl replace -f <file>.yaml` | Replaces an existing resource with a new definition. | Used for full replacements. |
+| `kubectl edit <resource> <name>` | Opens a resource definition in your editor for direct modification. | Immediate effect upon save. |
+
+---
+
+## 🔁 ReplicationControllers & ReplicaSets
+
+| **Command** | **Description** | **Example / Notes** |
+|--------------|-----------------|---------------------|
+| `kubectl get replicationcontroller` | Lists all ReplicationControllers. | Legacy type (mostly replaced by ReplicaSets). |
+| `kubectl create -f rc-definition.yaml` | Creates a ReplicationController. | Include labels and selectors. |
+| `kubectl get replicaset` / `kubectl get rs` | Lists all ReplicaSets. | Shows replica counts and status. |
+| `kubectl scale --replicas=<n> -f <file>.yaml` | Scales resources to the desired replicas using a manifest. | `kubectl scale --replicas=6 -f replicaset.yaml` |
+| `kubectl scale replicaset <name> --replicas=<n>` | Scales a ReplicaSet directly. | `kubectl scale replicaset myapp --replicas=3` |
+| `kubectl edit replicaset <name>` | Edits a ReplicaSet definition directly. | Immediate effect. |
+| `kubectl delete replicaset <name>` | Deletes a ReplicaSet and its Pods. | `kubectl delete replicaset myapp` |
+
+---
+
+## 🚀 Deployments & Rollouts
+
+| **Command** | **Description** | **Example / Notes** |
+|--------------|-----------------|---------------------|
+| `kubectl get deployments` | Lists all Deployments in the current namespace. | `kubectl get deployments` |
+| `kubectl describe deployment <name>` | Shows detailed info about a Deployment (strategy, replicas, events, etc.). | `kubectl describe deployment nginx-deployment` |
+| `kubectl create -f <file>.yaml` | Creates a Deployment from a YAML manifest. | `kubectl create -f deployment.yaml` |
+| `kubectl apply -f <file>.yaml` | Applies or updates Deployment configuration. | Declarative management. |
+| `kubectl set image deployment/<name> <container>=<new-image>` | Updates a container image in a Deployment (triggers rolling update). | `kubectl set image deployment/nginx nginx=nginx:1.27.1` |
+| `kubectl rollout status deployment/<name>` | Monitors rollout progress. | `kubectl rollout status deployment/nginx-deployment` |
+| `kubectl rollout history deployment/<name>` | Shows Deployment revision history. | `kubectl rollout history deployment/nginx-deployment` |
+| `kubectl rollout undo deployment/<name>` | Rolls back to the previous revision. | `kubectl rollout undo deployment/nginx-deployment` |
+| `kubectl rollout undo deployment/<name> --to-revision=<n>` | Rolls back to a specific revision. | `kubectl rollout undo deployment/nginx --to-revision=2` |
+| `kubectl scale deployment <name> --replicas=<n>` | Scales a Deployment up or down. | `kubectl scale deployment nginx --replicas=5` |
+| `kubectl edit deployment <name>` | Opens Deployment manifest for direct editing. | Changes apply immediately. |
+| `kubectl delete deployment <name>` | Deletes a Deployment and its ReplicaSets/Pods. | `kubectl delete deployment nginx-deployment` |
+
+---
+
+✅ **Quick Tip:**  
+Use `kubectl get all` to see the combined state of Pods, ReplicaSets, and Deployments at any time.
 
 **Notes:**
 - The `--dry-run=client -o yaml` flag is a quick way to generate templates for Pods or other objects before creating them.  
 - `kubectl apply` is preferred over `create` because it allows incremental updates to existing resources.  
 - Scaling using the `scale` command does not modify the YAML file — changes remain runtime-only.  
 - YAML files are central to declarative management — every resource created imperatively should ideally be backed by a manifest for version control.
+- **Rolling updates** are triggered automatically when the image or configuration in a Deployment changes.  
+- Kubernetes creates a new **ReplicaSet** during each rollout while gradually scaling down the old one.  
+- Rollbacks restore the previous ReplicaSet version to maintain application stability.  
+- Use `kubectl rollout history` to track revision numbers and validate rollback actions.  
 
 ---
 
@@ -92,11 +151,33 @@
 
 ---
 
-## 🧭 Next Focus
- - Continue KodeKloud Kubernetes for Absolute Beginners course (target ≥ 60%)
- - Begin Minikube setup once course module covers installation
- - Practice creating Pods, Deployments, and Services via YAML and kubectl
- - Document new Kubernetes commands and screenshots in /week04_kubernetes/screenshots/
+## 🧭 Week 4 Wrap-Up & Next Steps
+
+**Summary of Week 4 Progress**
+- Completed the **Linux Basics for DevOps** course on KodeKloud 🎓 (100 %).  
+  Covered file systems, storage types (DAS, NAS, SAN), NFS, and LVM through hands-on labs.  
+- Reached **60 %** completion in the **Kubernetes for Absolute Beginners** course.  
+  Explored Deployments → Updates & Rollbacks and learned to manage versioned rollouts with  
+  `kubectl set image`, `rollout status`, `rollout undo`, and `rollout history`.  
+- Strengthened understanding of how Deployments manage ReplicaSets for self-healing,  
+  scaling, and controlled updates.  
+- Reviewed course note that **Minikube installation** comes at the end — postponed setup  
+  until after completing all course modules.
+
+---
+
+**Next Focus (Week 5 – Infrastructure as Code & Kubernetes Hands-On)**
+- Finish the remaining sections of **Kubernetes for Absolute Beginners**:  
+  Services, ConfigMaps, and Secrets.  
+- Proceed with the **Minikube setup** module and perform the first local Kubernetes deployment.  
+- Begin introduction to **Infrastructure as Code (Terraform)** – create basic provider and resource definitions.  
+- Integrate learning from Docker + Kubernetes + AWS to understand end-to-end DevOps deployment workflows.  
+- Update documentation with new YAML manifests, `kubectl` commands, and screenshots in  
+  `/week05_kubernetes-iac/`.
+
+---
+
+🧩 *Week 4 successfully connected Linux system administration skills with Kubernetes deployment workflows — a strong foundation for moving into Infrastructure as Code and cloud automation in Week 5.*
 
 ---
 
