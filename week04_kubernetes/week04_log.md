@@ -48,3 +48,40 @@
 - Feeling stronger with AWS fundamentals — compute, storage, and databases now all well understood.  
 - Plan for next session: resume Kubernetes course, covering **Deployments** and **Services**.
 ---
+---
+
+### 💾 Day 5 (Nov 2 2025)
+- Shifted focus back to **Linux Basics for DevOps** on KodeKloud.  
+- Covered **Storage & Disk Partitioning** and **File Systems**.  
+- Practiced creating and mounting file systems in the hands-on labs.  
+- New commands practiced:  
+  - `mkfs.ext4 /dev/sdb1` – format a partition with ext4  
+  - `mkdir /mnt/ext4` – create a mount point  
+  - `mount /dev/sdb1 /mnt/ext4` – mount the device  
+  - `sudo blkid /dev/vdd` – check UUID and filesystem type  
+- Reached **89 %** course completion.  
+
+---
+
+### 🧩 Day 6 (Nov 3 2025)
+- Completed the remaining Linux Basics modules:  
+  - **DAS (NAS vs SAN)** concepts  
+  - **NFS file system** setup and **LVM (Logical Volume Management)** labs  
+- Achieved **100 % completion** of the *Linux Basics for DevOps* course.  
+- Earned the **KodeKloud Certificate of Completion** 🎓.  
+- Reflected that the course’s “Bob and Project Mercury” storyline added great practical context to the learning.  
+
+---
+
+### ☸️ Day 7 (Nov 4 2025)
+- Returned to **Kubernetes for Absolute Beginners** (KodeKloud).  
+- Progressed from **53 % → 60 %** completion.  
+- Covered **Deployments – Updates and Rollbacks** with corresponding labs.  
+- Practiced:  
+  - Updating container images in Deployments  
+  - Monitoring rollout status  
+  - Performing rollbacks to previous revisions  
+- Re-watched course guidance video confirming that **Minikube setup instructions** will be provided at the end — no need to install prematurely.  
+- Plan: complete course through **Services, ConfigMaps, and Secrets** by Week 5 start.  
+
+---
