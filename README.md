@@ -75,14 +75,24 @@ The repository is being gradually structured as I progress through my **8-week D
 
 ---
 
-## 🎯 Coming Up – Week 4 Goals
+## 🚀 Coming Up – Week 5: Infrastructure as Code & Kubernetes Hands-On
 
-- Continue **KodeKloud Kubernetes for Absolute Beginners** (target ≥ 60% by week’s end)  
-- Start **Minikube setup and kubectl hands-on labs** once course modules reach installation section  
-- Practice first Kubernetes deployment and service exposure  
-- Continue **AWS Cloud Practitioner Essentials** (Modules 2 & 7 )  
-- Complete final Linux Basics lessons and record summary notes  
-- Document Kubernetes learnings and screenshots in `week04_kubernetes/`  
+This week expands from container orchestration to infrastructure automation — learning how to **provision, configure, and deploy cloud-ready environments** using **Terraform** while completing hands-on Kubernetes labs with **Minikube**.
+
+**Objectives:**
+- Finish the remaining sections of *Kubernetes for Absolute Beginners* (Services, ConfigMaps, Secrets).  
+- Set up **Minikube** locally and deploy sample Pods and Services using `kubectl`.  
+- Understand **Infrastructure as Code (IaC)** concepts and install Terraform.  
+- Write first Terraform configuration files defining providers, resources, and variables.  
+- Deploy a simple AWS resource (e.g., EC2 instance or S3 bucket) using Terraform.  
+- Connect DevOps dots: use Terraform + Kubernetes + Docker together in small practical demos.  
+- Continue AWS Cloud Practitioner Essentials (Modules 11–12) in parallel.  
+- Document new YAML, HCL, and CLI commands plus screenshots in `/week05_kubernetes-iac/`.
+
+---
+
+🧭 *Week 5 marks the transition from cluster management to fully automated infrastructure — bringing your DevOps learning plan into the IaC and Cloud Automation stage.*
+
 
 ---
 
