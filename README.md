@@ -98,7 +98,6 @@ The repository is being gradually structured as I progress through my **8-week D
 | **Nov 4 2025** | Reached **60 %** in *Kubernetes for Absolute Beginners* (KodeKloud). Completed Deployments – Updates & Rollbacks with labs. Practiced rollout, rollback, and version control using `kubectl`. |
 | **Nov 3 2025** | Completed the *Linux Basics for DevOps* course on KodeKloud 🎓 (100 %). Covered disk partitioning, file systems, storage types (DAS/NAS/SAN), NFS, and LVM labs. |
 | **Nov 2 2025** | Practiced Linux storage commands (`mkfs`, `mount`, `blkid`) while revisiting file system and partition management labs. |
-
 | **Nov 1, 2025** | Completed AWS Cloud Practitioner Module 7 (Databases) and Module 2 (Compute in the Cloud) — scored 86% in both quizzes. |
 | **Oct 31, 2025** | Reached 53% in KodeKloud Kubernetes course — covered Replication Controllers, ReplicaSets, and started Deployments. Began AWS Module 7 (Databases). |
 | **Oct 30, 2025** | Reached 40% in Kubernetes course — learned YAML structure and created Pods with manifests via labs. |
