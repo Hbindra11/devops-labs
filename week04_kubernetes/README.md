@@ -123,7 +123,7 @@ This blend of **container orchestration** and **cloud service learning** continu
 
 ---
 
-📸 *All screenshots were captured during Week 4 (Oct 29 – Nov 1, 2025) as part of the Kubernetes Intro & AWS parallel learning phase of my 8-Week DevOps Foundations Practice Plan.*
+📸 *All screenshots were captured during Week 4 (Oct 29 – Nov 5, 2025) as part of the Kubernetes Intro & AWS parallel learning phase of my 8-Week DevOps Foundations Practice Plan.*
 
 ---
 📘 These notes reflect progress up to 53% completion of the KodeKloud Kubernetes for Absolute Beginners course (as of Nov 1, 2025), as part of my 8-Week DevOps Foundations Practice Plan.
