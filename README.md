@@ -44,14 +44,26 @@ devops-labs/
 | ├── docker-commands.md      # running list of Docker commands 
 | └── screenshots/
 |
-week04_kubernetes/              # Kubernetes Intro & Orchestration - Active
+week04_kubernetes/              # Kubernetes Intro & Orchestration 
 | ├── README.md                 # main summary
 | ├── week04_log.md             # daily log             
 | ├── k8s-lab-notes.md          # concepts & resources
 | └── screenshots/
-├── linux-commands.md # Linux commands reference – in progress
+|
+week05_kubernetes-iac/              # Kubernetes + Terraform (Infrastructure as Code) – active
+| ├── README.md                     # Week 5 overview and progress summary
+| ├── week05_log.md                 # Daily learning log             
+| ├── terraform-lab-notes.md        # Terraform CLI, HCL syntax, and AWS IaC practice
+| ├── kubernetes-minikube-notes.md  # Hello Minikube tutorial and service deployments
+| └── screenshots/                  # Quiz results, Terraform runs, Minikube setup proofs
+| └── resources/                    # Sample .tf and YAML manifests for practice
+|
+├── linux-commands.md               # Linux commands reference 
+├── kubectl-commands.md             # Kubernetes CLI reference (Pods, Deployments, Rollouts)
+├── terraform-commands.md           # Terraform command cheatsheet (to be added)
 │
-└── .github/workflows/ci.yml # GitHub Actions workflow – initial CI/CD setup (learning phase)
+| ├──.github/workflows/             # CI/CD workflows
+| └── ci.yml                        # GitHub Actions workflow – initial CI/CD setup (learning phase)
 
 ```
 
