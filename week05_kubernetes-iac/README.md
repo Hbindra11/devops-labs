@@ -77,4 +77,4 @@ Despite a busy week with family commitments, steady progress was made across AWS
 |---------------|------------------|-------------|---------------|
 | **AWS Cloud Practitioner – Module 3 Quiz** | Covered Compute Services, Containers, and Serverless; scored **88%**. | ✅ Completed | <img src="./screenshots/aws-cpe-module3-compute-quiz-88pct-2025-11-06.png" width="75%"> |
 | **Kubernetes for Absolute Beginners – 100%** | Completed all modules and labs on KodeKloud. | ✅ Completed | <img src="./screenshots/kodekloud-kubernetes-beginners-certificate-2025-11-10.png" width="75%"> |
-| **Terraform for Beginners – 12%** | Started Terraform course; covered basics of HCL and IaC concepts. | 🚧 In Progress | <img src="./screenshots/kodekloud-terraform-beginners-dashboard-12pct-2025-11-08.png" width="75%"> |
+| **Terraform for Beginners – 12%** | Started Terraform course; covered basics of HCL and IaC concepts. | 🚧 In Progress | <img src="./screenshots/kodekloud-terraform-beginners-dashboard-12pct.png" width="75%"> |
