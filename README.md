@@ -59,7 +59,7 @@ week05_kubernetes-iac/              # Kubernetes + Terraform (Infrastructure as 
 | └── resources/                    # Sample .tf and YAML manifests for practice
 |
 ├── linux-commands.md               # Linux commands reference 
-├── kubectl-commands.md             # Kubernetes CLI reference (Pods, Deployments, Rollouts)
+├── kubectl-commands.md             # Kubernetes CLI reference (Pods, Deployments, Rollouts) (to be added)
 ├── terraform-commands.md           # Terraform command cheatsheet (to be added)
 │
 | ├──.github/workflows/             # CI/CD workflows
