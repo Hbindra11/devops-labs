@@ -105,6 +105,10 @@ This week expands from container orchestration to infrastructure automation — 
 
 | **Date** | **Update** |
 |-----------|------------|
+| **Nov 10 2025** | Completed *Kubernetes for Absolute Beginners* (KodeKloud) 🎓 — 100 %. Practiced Services, ConfigMaps, Secrets and microservices deployment labs. |
+| **Nov 8 2025** | Started *Terraform for Beginners* on KodeKloud (12 %). Learned IaC and HCL basics. |
+| **Nov 7 2025** | Reached 70 % in *Kubernetes course*; covered Services and ConfigMaps. |
+| **Nov 6 2025** | Completed AWS Cloud Practitioner Essentials Module 3 (Compute Services) with **88 % quiz score**. |
 | **Nov 4 2025** | Reached **60 %** in *Kubernetes for Absolute Beginners* (KodeKloud). Completed Deployments – Updates & Rollbacks with labs. Practiced rollout, rollback, and version control using `kubectl`. |
 | **Nov 3 2025** | Completed the *Linux Basics for DevOps* course on KodeKloud 🎓 (100 %). Covered disk partitioning, file systems, storage types (DAS/NAS/SAN), NFS, and LVM labs. |
 | **Nov 2 2025** | Practiced Linux storage commands (`mkfs`, `mount`, `blkid`) while revisiting file system and partition management labs. |
