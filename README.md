@@ -50,16 +50,16 @@ devops-labs/
 │   ├── k8s-lab-notes.md
 │   └── screenshots/
 │
-├── week05_kubernetes-iac/           # Kubernetes + Terraform
-│   ├── README.md
-│   ├── week05_log.md
-│   ├── terraform-lab-notes.md
-│   ├── kubernetes-minikube-notes.md
-│   └── resources/
+├── week05_kubernetes-iac/           # Week 5 – Kubernetes & IaC Foundations
+│   ├── README.md                    # Week 5 summary
+│   ├── week05_log.md                # Daily log
+│   └── screenshots/                 # Kubernetes/AWS/Terraform progress images
 │
-├── week06_iac-k8s-handson/          # NEW – Week 6 (Terraform + Minikube)
-│   ├── README.md                    # Week 6 plan + notes
-│   └── week06_log.md                # Daily log template
+├── week06_iac-k8s-handson/          # Week 6 – Terraform + Minikube Hands-On
+│   ├── README.md                    # Week 6 plan + reflection
+│   ├── week06_log.md                # Daily log
+│   ├── terraform-lab-notes.md       # NEW – Terraform hands-on notes
+│   └── kubernetes-minikube-notes.md # NEW – Minikube setup + kubectl notes
 │
 ├── linux-commands.md
 ├── kubectl-commands.md              # (upcoming)
