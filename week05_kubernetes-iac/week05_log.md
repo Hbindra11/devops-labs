@@ -36,3 +36,39 @@
 - Next → install Minikube and follow the official *Hello Minikube* tutorial.
 
 ---
+### 🌿 Day 5 (Tue Nov 11 2025)
+- Needed a lighter study day due to weekend overload and family responsibilities.  
+- Reviewed Kubernetes Deployments, rollouts, and the role of ReplicaSets using course notes.  
+- Rewatched several short KodeKloud videos to reinforce concepts before transitioning into Minikube.  
+- Planned out the installation steps for **Minikube** based on the official documentation.  
+- Organized screenshots and updated parts of the repository to keep documentation consistent.
+
+---
+
+### 🌐 Day 6 (Wed Nov 12 2025)
+- Returned to the **Terraform for Beginners** course on KodeKloud.  
+- Reviewed HCL basics (variables, resources, blocks) in preparation for the first hands-on lab.  
+- Watched the section explaining Terraform *state files*, *providers*, and *backends*, gaining a stronger conceptual understanding of IaC workflows.  
+- Prepared folder structure (`week05_kubernetes-iac/terraform-labs/`) for upcoming Terraform configurations.  
+- Began drafting notes for Terraform commands and workflow (`init`, `plan`, `apply`, `destroy`).
+
+---
+
+### ☁️ Day 7 (Thu Nov 13 2025)
+- Continued the AWS Cloud Practitioner Essentials course — reviewed topics from Module 3.  
+- Organized AWS notes around compute (EC2, ECS, EKS) and serverless (Lambda) to prepare for Modules 11–12.  
+- Installed and configured tools needed for upcoming Minikube tutorial (kubectl check, virtualization setup).  
+- Finalized planning for **Hello Minikube**, ready to proceed with installation in Week 6.  
+- Updated GitHub repository structure and added placeholder files for Week 6 (CI/CD + IaC integration).
+
+---
+
+## ✅ End of Week 5 Summary
+A challenging week due to family schedule, but major progress achieved:
+- AWS Module 3 completed (88%)  
+- Kubernetes course fully completed (100%)  
+- Terraform course started (12%)  
+- Repository updated with new structure for Kubernetes + IaC  
+- Prepared environment for Minikube and Terraform hands-on labs
+
+---
