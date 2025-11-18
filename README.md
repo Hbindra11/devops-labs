@@ -39,20 +39,20 @@ devops-labs/
 │
 ├──week03_docker/             # Docker Deep Dive - while continuing Kodekloud Linux training & some more AWS Cloud Practitioner Essentials 
 | ├── README.md               # Weekly overview, goals, reflection
-| ├── week03_log.md           # daily log
+| ├── week03_log.md           # daily log for week 3
 | ├── docker-lab-notes.md     # concepts, resources, troubleshooting notes
 | ├── docker-commands.md      # running list of Docker commands 
 | └── screenshots/
 |
 week04_kubernetes/              # Kubernetes Intro & Orchestration 
 | ├── README.md                 # main summary
-| ├── week04_log.md             # daily log             
+| ├── week04_log.md             # daily log for week 4          
 | ├── k8s-lab-notes.md          # concepts & resources
 | └── screenshots/
 |
 week05_kubernetes-iac/              # Kubernetes + Terraform (Infrastructure as Code) – active
 | ├── README.md                     # Week 5 overview and progress summary
-| ├── week05_log.md                 # Daily learning log             
+| ├── week05_log.md                 # Daily learning log for week 5           
 | ├── terraform-lab-notes.md        # Terraform CLI, HCL syntax, and AWS IaC practice
 | ├── kubernetes-minikube-notes.md  # Hello Minikube tutorial and service deployments
 | └── screenshots/                  # Quiz results, Terraform runs, Minikube setup proofs
