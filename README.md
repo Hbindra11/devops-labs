@@ -1,23 +1,23 @@
 # 🚀 DevOps & Cloud Learning Portfolio  
 
-This repository documents my **8-week self-directed upskilling plan** in **DevOps and Cloud Engineering**, combining study, guided practice, and continuous hands-on learning.  
-It demonstrates my practical progression through CI/CD, containerization, cloud infrastructure, and automation — supported by structured weekly goals and real lab projects.
+This repository documents my **8-week self-directed upskilling plan** in **DevOps and Cloud Engineering**, combining structured weekly goals, hands-on labs, and continuous progress tracking.  
+It demonstrates practical skills in CI/CD, containerization, cloud infrastructure, automation, and Infrastructure as Code.
 
 ---
 
 ## 🧭 Overview
 
-The labs and projects in this repo are designed to build a solid foundation across key DevOps domains:
+The labs, notes, and weekly documentation in this repo build core competencies across key DevOps domains:
 
-- **CI/CD Pipelines** – GitHub Actions, Jenkins (learning)  
+- **CI/CD Pipelines** – GitHub Actions, Jenkins (upcoming)  
 - **Containers** – Docker, Docker Compose  
-- **Orchestration** – Kubernetes (Minikube, KodeKloud)  
-- **Cloud Platforms** – AWS (EC2, S3, IAM, CloudWatch)  
-- **Infrastructure as Code** – Terraform (upcoming)  
-- **DevSecOps Practices** – RBAC, secure configurations, authentication  
-- **Linux & Scripting** – User management, processes, automation  
+- **Orchestration** – Kubernetes (KodeKloud, Minikube)  
+- **Cloud Platforms** – AWS (EC2, S3, IAM, Monitoring, Global Infrastructure)  
+- **Infrastructure as Code** – Terraform (learning)  
+- **DevSecOps Basics** – RBAC, IAM, secure configurations  
+- **Linux & Automation** – Commands, processes, storage, scheduling, scripting  
 
-Each week focuses on one or more practical skill areas — including labs, notes, daily logs, and progress tracking.
+Each week focuses on one or more practical skill areas supported by daily logs and reference notes.
 
 ---
 
@@ -26,44 +26,47 @@ Each week focuses on one or more practical skill areas — including labs, notes
 ```
 devops-labs/
 │
-├── week01_lab-setup/         # Linux & AWS foundations
-│ ├── README.md               # Week 1 summary (Linux + AWS theory)
-│ ├── week01_log.md           # Daily learning log with progress notes
-│ ├── aws-lab-notes.md        # Notes from AWS Cloud Practitioner Essentials
-│ └── screenshots/            # KodeKloud & AWS quiz screenshots
+├── week01_lab-setup/                # Linux & AWS foundations
+│   ├── README.md
+│   ├── week01_log.md
+│   ├── aws-lab-notes.md
+│   └── screenshots/
 │
-├── week02_aws-labs/          # AWS & Linux hands-on labs 
-│ ├── README.md               # Weekly overview, goals, reflection
-│ ├── week02_log.md           # Daily log for Week 2
-│ └── screenshots/           
+├── week02_aws-labs/                 # AWS Cloud Practitioner & labs
+│   ├── README.md
+│   ├── week02_log.md
+│   └── screenshots/
 │
-├──week03_docker/             # Docker Deep Dive - while continuing Kodekloud Linux training & some more AWS Cloud Practitioner Essentials 
-| ├── README.md               # Weekly overview, goals, reflection
-| ├── week03_log.md           # daily log for week 3
-| ├── docker-lab-notes.md     # concepts, resources, troubleshooting notes
-| ├── docker-commands.md      # running list of Docker commands 
-| └── screenshots/
-|
-week04_kubernetes/              # Kubernetes Intro & Orchestration 
-| ├── README.md                 # main summary
-| ├── week04_log.md             # daily log for week 4          
-| ├── k8s-lab-notes.md          # concepts & resources
-| └── screenshots/
-|
-week05_kubernetes-iac/              # Kubernetes + Terraform (Infrastructure as Code) – active
-| ├── README.md                     # Week 5 overview and progress summary
-| ├── week05_log.md                 # Daily learning log for week 5           
-| ├── terraform-lab-notes.md        # Terraform CLI, HCL syntax, and AWS IaC practice
-| ├── kubernetes-minikube-notes.md  # Hello Minikube tutorial and service deployments
-| └── screenshots/                  # Quiz results, Terraform runs, Minikube setup proofs
-| └── resources/                    # Sample .tf and YAML manifests for practice
-|
-├── linux-commands.md               # Linux commands reference 
-├── kubectl-commands.md             # Kubernetes CLI reference (Pods, Deployments, Rollouts) (to be added)
-├── terraform-commands.md           # Terraform command cheatsheet (to be added)
+├── week03_docker/                   # Docker Deep Dive
+│   ├── README.md
+│   ├── week03_log.md
+│   ├── docker-lab-notes.md
+│   ├── docker-commands.md
+│   └── screenshots/
 │
-| ├──.github/workflows/             # CI/CD workflows
-| └── ci.yml                        # GitHub Actions workflow – initial CI/CD setup (learning phase)
+├── week04_kubernetes/               # Kubernetes Fundamentals
+│   ├── README.md
+│   ├── week04_log.md
+│   ├── k8s-lab-notes.md
+│   └── screenshots/
+│
+├── week05_kubernetes-iac/           # Kubernetes + Terraform
+│   ├── README.md
+│   ├── week05_log.md
+│   ├── terraform-lab-notes.md
+│   ├── kubernetes-minikube-notes.md
+│   └── resources/
+│
+├── week06_iac-k8s-handson/          # NEW – Week 6 (Terraform + Minikube)
+│   ├── README.md                    # Week 6 plan + notes
+│   └── week06_log.md                # Daily log template
+│
+├── linux-commands.md
+├── kubectl-commands.md              # (upcoming)
+├── terraform-commands.md            # (upcoming)
+│
+└── .github/workflows/
+    └── ci.yml                       # GitHub Actions – CI setup
 
 ```
 
@@ -71,15 +74,18 @@ The repository is being gradually structured as I progress through my **8-week D
 
 ---
 
-## 📊 Overall Progress Summary (as of Nov 4 2025)
+## 📊 Overall Progress Summary (as of Nov 18 2025)
 
 | **Topic / Skill Area** | **Platform / Resource** | **Current Progress** | **Key Highlights & Achievements** |
-|--------------------------|-------------------------|----------------------|-----------------------------------|
-| **Kubernetes for Absolute Beginners** | KodeKloud | **60 % Complete** | Covered Pods, ReplicaSets, and Deployments (Updates & Rollbacks). Practiced `kubectl set image`, `rollout status`, and `rollback`. |
-| **Linux Basics for DevOps** | KodeKloud | **100 % Complete ✅** | Completed all modules including storage (DAS/NAS/SAN), NFS, LVM. Practiced mounting, partitioning, and earned course certificate. |
-| **AWS Cloud Practitioner Essentials** | AWS Skill Builder | **~65 % Complete** | Finished Modules 2 (Compute), 6 (Storage), 7 (Databases), 10 (Monitoring & Governance). Quiz scores 86–91 %. |
-| **Docker for Absolute Beginners** | KodeKloud | **~30 % In Progress** | Reinforcing Docker concepts (images, containers, networking, volumes). Next: multi-container Compose setup. |
-| **CI/CD & Automation (Intro)** | GitHub Actions | **Initial Setup Done** | Created basic CI workflow (`.github/workflows/ci.yml`). Will extend to Docker build + deploy automation later. |
+|--------------------------|-------------------------|-----------------------|-----------------------------------|
+| **Kubernetes (Theory + Hands-On)** | KodeKloud + Minikube | **100% (course)**; Hands-on started | Completed full KodeKloud course (Pods, ReplicaSets, Deployments, Services, ConfigMaps, Secrets). Installed **Minikube**, explored dashboard, preparing for *Hello Minikube* tutorial. |
+| **Linux Basics for DevOps** | KodeKloud | **100 % Complete ✅** | Completed all modules including storage (DAS/NAS/SAN), NFS, LVM. Practiced disk/FS management and earned course certificate. |
+| **AWS Cloud Practitioner Essentials** | AWS Skill Builder | **~70 % Complete** | Finished Modules 2, 4, 6, 7, 10. Recent: Completed **Module 4 – Going Global** (83%). Strong quiz results (86–91%). |
+| **Terraform for Beginners** | KodeKloud | **~18 % In Progress** | Completed first hands-on labs: wrote `.tf` files and ran Terraform workflow (`init`, `plan`, `apply`). Recapped fundamentals after course pause. |
+| **Docker for Absolute Beginners** | KodeKloud | **~30 % In Progress** | Reinforced Docker fundamentals: images, containers, networking, volumes. Built and pushed images. Next: multi-container Docker Compose project. |
+| **CI/CD & Automation (Intro)** | GitHub Actions | **Initial Setup Done** | Basic CI workflow active (`ci.yml`). Future goal: integrate Docker build + test automation. |
+| **Portfolio & Documentation** | GitHub | **Ongoing** | Cleaned pinned projects, added missing descriptions. Repository structure expanded with weekly logs, notes, and screenshots. |
+
 
 ---
 
@@ -87,28 +93,32 @@ The repository is being gradually structured as I progress through my **8-week D
 
 ---
 
-## 🚀 Coming Up – Week 5: Infrastructure as Code & Kubernetes Hands-On
+# 🚀 Week 5 Recap – Kubernetes + IaC Foundations
 
-This week expands from container orchestration to infrastructure automation — learning how to **provision, configure, and deploy cloud-ready environments** using **Terraform** while completing hands-on Kubernetes labs with **Minikube**.
+Week 5 focused on:
 
-**Objectives:**
-- Finish the remaining sections of *Kubernetes for Absolute Beginners* (Services, ConfigMaps, Secrets).  
-- Set up **Minikube** locally and deploy sample Pods and Services using `kubectl`.  
-- Understand **Infrastructure as Code (IaC)** concepts and install Terraform.  
-- Write first Terraform configuration files defining providers, resources, and variables.  
-- Deploy a simple AWS resource (e.g., EC2 instance or S3 bucket) using Terraform.  
-- Connect DevOps dots: use Terraform + Kubernetes + Docker together in small practical demos.  
-- Continue AWS Cloud Practitioner Essentials (Modules 11–12) in parallel.  
-- Document new YAML, HCL, and CLI commands plus screenshots in `/week05_kubernetes-iac/`.
+- Completing the Kubernetes course  
+- Installing **Minikube**  
+- Beginning Terraform basics  
+- Continuing AWS Practitioner modules  
+- Documenting IaC workflows in Terraform  
+
+> This week marked the transition into hands-on cluster management and Infrastructure as Code.
 
 ---
 
-🧭 *Week 5 marks the transition from cluster management to fully automated infrastructure — bringing your DevOps learning plan into the IaC and Cloud Automation stage.*
+# 🗓️ Week 6 – IaC + Kubernetes Hands-On
 
+**Week 6 Objective:**  
+Consolidate Terraform fundamentals while gaining practical Kubernetes experience using Minikube.
 
----
-
-📘 *This repository is part of my 8-Week DevOps Foundations Practice Plan — a self-directed learning journey toward becoming a DevOps Engineer.*
+### 🎯 **Goals**
+- Complete the *Hello Minikube* tutorial  
+- Deploy Pods, Deployments, and Services locally  
+- Expand Terraform skills: variables, outputs, and basic AWS resources  
+- Complete AWS Cloud Practitioner Modules 11–12  
+- Add command references for `kubectl` & Terraform  
+- Document all labs and notes for Week 6  
 
 ---
 
@@ -117,6 +127,21 @@ This week expands from container orchestration to infrastructure automation — 
 
 | **Date** | **Update** |
 |-----------|------------|
+| **Nov 18 2025** | Updated GitHub profile and cleaned up pinned repositories. Added missing short descriptions to previous bootcamp projects for better portfolio presentation. |
+| **Nov 17 2025** | Spent most of the day applying for a new role and troubleshooting formatting issues in PDFs generated from application `.docx` files. |
+| **Nov 16 2025** | Installed **Minikube** using Docker Desktop as the virtualization engine. Verified installation with `minikube status`. Confirmed that `kubectl` was already available via Docker Desktop. Explored the Minikube Dashboard and prepared to begin the **Hello Minikube** tutorial next. |
+| **Nov 15 2025** | Completed **AWS Cloud Practitioner Essentials – Module 4 (Going Global)**. Covered AWS CloudFormation, global infrastructure, and IaC concepts. Scored **83%** on the module quiz. |
+| **Nov 14 2025** | Sick with fever — no study. |
+| **Nov 13 2025** | Birthday 🎉 + attended an unexpected interview for a sales-related role. No study. |
+| **Nov 12 2025** | Revisited the **Terraform for Beginners** KodeKloud course (previously at 12%). Recapped lessons after a short break. Completed the first hands-on labs on writing `.tf` files and running Terraform workflow commands. Found explanations unclear but completed the tasks successfully. |
+| **Nov 11 2025** | Updated GitHub repository documentation and reorganized progress logs. |
+| **Nov 10 2025** | Completed *Kubernetes for Absolute Beginners* (KodeKloud) 🎓 — 100 %. Practiced Services, ConfigMaps, Secrets and microservices deployment labs. |
+| **Nov 8 2025** | Started *Terraform for Beginners* on KodeKloud (12 %). Learned IaC and HCL basics. |
+| **Nov 7 2025** | Reached 70 % in *Kubernetes course*; covered Services and ConfigMaps. |
+| **Nov 6 2025** | Completed AWS Cloud Practitioner Essentials Module 3 (Compute Services) with **88 % quiz score**. |
+| **Nov 5 2025** | Updated GitHub repository and consolidated progress logs for early November. |
+| **Nov 4 2025** | Reached **60 %** in *Kubernetes for Absolute Beginners* (KodeKloud). Completed Deployments – Updates & Rollbacks with labs. Practiced rollout, rollback, and version control using `kubectl`. |
+
 | **Nov 10 2025** | Completed *Kubernetes for Absolute Beginners* (KodeKloud) 🎓 — 100 %. Practiced Services, ConfigMaps, Secrets and microservices deployment labs. |
 | **Nov 8 2025** | Started *Terraform for Beginners* on KodeKloud (12 %). Learned IaC and HCL basics. |
 | **Nov 7 2025** | Reached 70 % in *Kubernetes course*; covered Services and ConfigMaps. |
