@@ -78,3 +78,49 @@ Despite a busy week with family commitments, steady progress was made across AWS
 | **AWS Cloud Practitioner – Module 3 Quiz** | Covered Compute Services, Containers, and Serverless; scored **88%**. | ✅ Completed | <img src="./screenshots/aws-cpe-module3-compute-quiz-88pct-2025-11-06.png" width="75%"> |
 | **Kubernetes for Absolute Beginners – 100%** | Completed all modules and labs on KodeKloud. | ✅ Completed | <img src="./screenshots/kodekloud-kubernetes-beginners-certificate-2025-11-10.png" width="75%"> |
 | **Terraform for Beginners – 12%** | Started Terraform course; covered basics of HCL and IaC concepts. | 🚧 In Progress | <img src="./screenshots/kodekloud-terraform-beginners-dashboard-12pct.png" width="75%"> |
+
+---
+
+## 🧭 Next Focus (Week 6 – Minikube & IaC Hands-On)
+
+Week 6 will build directly on the foundations from Week 5.  
+The goal is to shift from *learning concepts* → *performing real hands-on deployments*.
+
+### 🔹 Kubernetes (Local Cluster)
+- Install and configure **Minikube** locally.  
+- Deploy a simple application following the **Hello Minikube** tutorial.  
+- Practice creating and managing:
+  - Pods  
+  - Services (NodePort, ClusterIP)  
+  - ConfigMaps & Secrets  
+- Inspect cluster components (nodes, pods, deployments, services) using `kubectl`.
+
+### 🔹 Terraform (Infrastructure as Code)
+- Complete HCL Basics labs in KodeKloud.  
+- Write first Terraform configuration:
+  - `provider` block (AWS)  
+  - basic resource (EC2 / S3 bucket)  
+  - variables & outputs  
+- Run full Terraform workflow:
+  - `terraform init`  
+  - `terraform plan`  
+  - `terraform apply`  
+  - `terraform destroy`  
+
+### 🔹 AWS Cloud Practitioner Essentials
+- Continue with **Modules 11–12**:  
+  - Cloud Adoption Framework  
+  - Billing, Support Plans, and Cost Optimization  
+
+### 🔹 Documentation & Repo Updates
+- Add:
+  - Minikube installation notes  
+  - First Terraform `.tf` file  
+  - Screenshots of terraform apply + AWS Console  
+  - Kubernetes manifests and Minikube output  
+- Update main README timeline and weekly progress tables.
+
+---
+
+📌 *Week 5 set the foundation for full hands-on orchestration and infrastructure automation.  
+Week 6 will bring Kubernetes and Terraform together in a practical, cloud-focused workflow.*
