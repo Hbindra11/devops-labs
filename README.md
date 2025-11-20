@@ -127,6 +127,8 @@ Consolidate Terraform fundamentals while gaining practical Kubernetes experience
 
 | **Date** | **Update** |
 |-----------|------------|
+| **Nov 20 2025** | Advanced Terraform basics further to **31% completion**. Completed lessons and hands-on labs on variable definitions and outputs (five labs total). Spent the morning preparing a new short CV (English + German). Used Markdown → PDF export for improved layout. Afternoon included exercise breaks and family responsibilities. |
+| **Nov 19 2025** | Continued **Terraform for Beginners** (KodeKloud). Progress increased from 12% → **19%** after completing hands-on labs on configuring multiple providers (`local_file` and `random_pet`) and practicing the Terraform workflow. |
 | **Nov 18 2025** | Updated GitHub profile and cleaned up pinned repositories. Added missing short descriptions to previous bootcamp projects for better portfolio presentation. |
 | **Nov 17 2025** | Spent most of the day applying for a new role and troubleshooting formatting issues in PDFs generated from application `.docx` files. |
 | **Nov 16 2025** | Installed **Minikube** using Docker Desktop as the virtualization engine. Verified installation with `minikube status`. Confirmed that `kubectl` was already available via Docker Desktop. Explored the Minikube Dashboard and prepared to begin the **Hello Minikube** tutorial next. |
