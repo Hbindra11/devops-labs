@@ -76,27 +76,39 @@
 
 ---
 
-### **📆 Day 5 — (Nov 19)**  
+### **📆 Day 5 — (Nov 19)**
 **What I worked on:**  
--  
+- Continued **Terraform Basics** training on KodeKloud  
+- Completed labs involving **multiple providers** (`local_file` + `random_pet`)  
+- Practiced full Terraform workflow (`init`, `plan`, `apply`, `destroy`)  
+- Progress increased from **12% → 19%**
 
 **Notes / Challenges:**  
--  
+- Kids home for school holiday + son’s birthday → limited study time  
+- Needed to re-focus after family responsibilities  
 
 **Next steps:**  
--  
+- Move on to Terraform variable definitions and outputs  
+- Continue strengthening HCL understanding  
 
 ---
 
-### **📆 Day 6 — (Nov 20)**  
+### **📆 Day 6 — (Nov 20)**
 **What I worked on:**  
--  
+- Prepared new shorter **CV (English + German)**  
+- Found **Markdown → PDF conversion** produces clean and professional formatting  
+- Advanced Terraform basics to **31% completion**  
+- Completed lessons on variable definitions and outputs  
+- Finished **all 5 hands-on labs** for this section  
 
 **Notes / Challenges:**  
--  
+- Morning spent on CV writing  
+- Several breaks (exercise + travel to pick up kids)  
+- Achieved productive Terraform session despite a busy day  
 
 **Next steps:**  
--  
+- Continue to the next Terraform topics (data sources, modules)  
+- Begin **Hello Minikube** tutorial when Terraform section stabilizes  
 
 ---
 
