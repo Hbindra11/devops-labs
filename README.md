@@ -51,14 +51,14 @@ devops-labs/
 │   └── screenshots/
 │
 ├── week05_kubernetes-iac/           # Kubernetes & IaC Foundations
-│   ├── README.md                    # Week 5 summary
-│   ├── week05_log.md                # Daily log
+│   ├── README.md                    
+│   ├── week05_log.md                
 │   └── screenshots/                 # Kubernetes/AWS/Terraform progress images
 │
 ├── week06_iac-k8s-handson/          # Week 6 – Terraform + Minikube Hands-On
-│   ├── README.md                    # Week 6 plan + reflection
+│   ├── README.md                    # Week 6 progress, plan + reflection
 │   ├── week06_log.md                # Daily log
-│   └── screenshots/
+│   └── screenshots/                 # AWS/Terraform progress images
 │
 ├── week07_iac-advanced/             # NEW – Terraform + Minikube hands-on 
 │   ├── README.md
