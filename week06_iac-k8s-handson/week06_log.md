@@ -112,15 +112,22 @@
 
 ---
 
-### **📆 Day 7 — (Nov 21)**  
+### **📆 Day 7 — (Nov 21)**
 **What I worked on:**  
--  
+- Successfully installed **Terraform v1.14.0** on Windows  
+- Verified installation using `terraform --version`  
+- Completed **AWS Cloud Practitioner Essentials – Module 11 (Pricing & Support)**  
+- Scored **90%** on the module quiz  
+- Reviewed remaining modules needed to finish the AWS Practitioner course (Modules 8, 12, 13)
 
-**Notes /Challenges:**  
--  
+**Notes / Challenges:**  
+- Installation process went smoothly  
+- Module 11 was straightforward; refreshed understanding of AWS pricing models and support plans  
 
 **Next steps:**  
--  
+- Begin Week 7 by starting local Terraform projects (variables, outputs, simple resources)  
+- Move Kubernetes + Terraform hands-on work into Week 7  
+- Continue AWS Practitioner Modules 8, 12, and 13  
 
 ---
 
@@ -128,7 +135,7 @@
 
 **What I accomplished:**  
 - Installed and explored Minikube  
-- Completed AWS Practitioner Module 4 (83%)  
+- Completed AWS Practitioner Modules 4 (83%) & Module 11 (90%) 
 - Updated repo structure and pinned projects  
 - Restarted Terraform + Kubernetes learning momentum  
 
