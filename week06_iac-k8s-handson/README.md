@@ -67,7 +67,7 @@ Hands-on Kubernetes and Terraform projects (Deployments, Services, local IaC pro
 | Terraform Installation | Installed Terraform v1.14.0 on Windows and verified using `terraform --version` | ✅ Completed | <img src="./screenshots/terraform-version.png" width="75%"> |
 | Terraform Providers Lab | Completed labs using `local_file` and `random_pet` providers; practiced `init`, `plan`, `apply`, `destroy` | ✅ Completed | <img src="./screenshots/terraform-providers-lab.png" width="75%"> |
 | Terraform Variables & Outputs | Completed all 5 hands-on labs defining variables and outputs in `.tf` files | ✅ Completed | <img src="./screenshots/terraform-variables-labs.png" width="75%"> |
-| Terraform Apply Output | Execution output from applying sample Terraform config (local resources) | ⚙ In Progress | <img src="./screenshots/terraform-apply-output.png" width="75%"> |
+| Terraform Apply Output | Execution output from applying sample Terraform config (local resources) | ✅ Completed | <img src="./screenshots/terraform-apply-output.png" width="75%"> |
 | AWS Practitioner Module 11 | Finished Module 11 (Pricing & Support), scored 90% | 🎓 Completed | <img src="./screenshots/aws-module11-score.png" width="75%"> |
 
 ---
