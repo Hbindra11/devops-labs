@@ -50,7 +50,7 @@ devops-labs/
 │   ├── k8s-lab-notes.md
 │   └── screenshots/
 │
-├── week05_kubernetes-iac/           # Week 5 – Kubernetes & IaC Foundations
+├── week05_kubernetes-iac/           # Kubernetes & IaC Foundations
 │   ├── README.md                    # Week 5 summary
 │   ├── week05_log.md                # Daily log
 │   └── screenshots/                 # Kubernetes/AWS/Terraform progress images
@@ -58,11 +58,16 @@ devops-labs/
 ├── week06_iac-k8s-handson/          # Week 6 – Terraform + Minikube Hands-On
 │   ├── README.md                    # Week 6 plan + reflection
 │   ├── week06_log.md                # Daily log
-│   ├── terraform-lab-notes.md       # NEW – Terraform hands-on notes
-│   └── kubernetes-minikube-notes.md # NEW – Minikube setup + kubectl notes
+│   └── screenshots/
+│
+├── week07_iac-advanced/             # NEW – Terraform + Minikube hands-on 
+│   ├── README.md
+│   ├── week07_log.md
+│   ├── terraform-projects/
+│   └── k8s-minikube-labs/
 │
 ├── linux-commands.md
-├── kubectl-commands.md              # (upcoming)
+├── kubectl-commands.md             
 ├── terraform-commands.md            # (upcoming)
 │
 └── .github/workflows/
@@ -74,18 +79,16 @@ The repository is being gradually structured as I progress through my **8-week D
 
 ---
 
-## 📊 Overall Progress Summary (as of Nov 18 2025)
+## 📊 Overall Progress Summary (as of Nov 21 2025)
 
 | **Topic / Skill Area** | **Platform / Resource** | **Current Progress** | **Key Highlights & Achievements** |
-|--------------------------|-------------------------|-----------------------|-----------------------------------|
-| **Kubernetes (Theory + Hands-On)** | KodeKloud + Minikube | **100% (course)**; Hands-on started | Completed full KodeKloud course (Pods, ReplicaSets, Deployments, Services, ConfigMaps, Secrets). Installed **Minikube**, explored dashboard, preparing for *Hello Minikube* tutorial. |
-| **Linux Basics for DevOps** | KodeKloud | **100 % Complete ✅** | Completed all modules including storage (DAS/NAS/SAN), NFS, LVM. Practiced disk/FS management and earned course certificate. |
-| **AWS Cloud Practitioner Essentials** | AWS Skill Builder | **~70 % Complete** | Finished Modules 2, 4, 6, 7, 10. Recent: Completed **Module 4 – Going Global** (83%). Strong quiz results (86–91%). |
-| **Terraform for Beginners** | KodeKloud | **~18 % In Progress** | Completed first hands-on labs: wrote `.tf` files and ran Terraform workflow (`init`, `plan`, `apply`). Recapped fundamentals after course pause. |
-| **Docker for Absolute Beginners** | KodeKloud | **~30 % In Progress** | Reinforced Docker fundamentals: images, containers, networking, volumes. Built and pushed images. Next: multi-container Docker Compose project. |
-| **CI/CD & Automation (Intro)** | GitHub Actions | **Initial Setup Done** | Basic CI workflow active (`ci.yml`). Future goal: integrate Docker build + test automation. |
-| **Portfolio & Documentation** | GitHub | **Ongoing** | Cleaned pinned projects, added missing descriptions. Repository structure expanded with weekly logs, notes, and screenshots. |
-
+|-------------------------|-------------------------|-----------------------|-----------------------------------|
+| **Kubernetes (Theory + Hands-On)** | KodeKloud + Minikube | **100% (course)**; Hands-on continues in Week 7 | Completed full KodeKloud course. Installed Minikube and explored the Dashboard. Hands-on deployments moved to Week 7. |
+| **Linux Basics for DevOps** | KodeKloud | **100% Complete** | Completed all modules: storage, LVM, networking, services, cron, security, permissions. Certificate earned. |
+| **AWS Cloud Practitioner Essentials** | AWS Skill Builder | **~82% Complete** | Completed Module 11 (Pricing & Support) scored **90%**. Remaining: Modules 8, 12, 13. |
+| **Terraform for Beginners** | KodeKloud + Local Terraform | **~31% Complete** | Installed Terraform locally (v1.14.0). Completed provider configuration labs, variables, outputs (5 labs). Terraform hands-on moves to Week 7. |
+| **CI/CD & Automation (Intro)** | GitHub Actions | **Initial Setup Done** | Created first CI workflow (`ci.yml`). Plans to expand into automated testing and Docker integration later. |
+| **Portfolio & Documentation** | GitHub | **Ongoing** | Weekly logs maintained. Repo reorganized. Pinned projects cleaned up with improved descriptions. |
 
 ---
 
@@ -97,36 +100,48 @@ The repository is being gradually structured as I progress through my **8-week D
 
 Week 5 focused on:
 
-- Completing the Kubernetes course  
-- Installing **Minikube**  
-- Beginning Terraform basics  
-- Continuing AWS Practitioner modules  
-- Documenting IaC workflows in Terraform  
+- Completing the **Kubernetes for Absolute Beginners** course (100%)
+- Installing **Minikube** as preparation for future Kubernetes hands-on
+- Beginning **Terraform Basics** (providers, workflow, simple resources)
+- Continuing AWS Cloud Practitioner modules (Module 4 completed during extended period)
+- Updating repository documentation and summaries
 
-> This week marked the transition into hands-on cluster management and Infrastructure as Code.
+> Week 5 included a few disruptions (birthday + sick day), so some progress spilled over into the early days of Week 6.  
+> The core focus was completing Kubernetes theory and beginning Infrastructure as Code fundamentals.
+
+---
+
+# 🗓️ Week 6 – IaC Progress + AWS Practitioner Advancement
+
+**Adjusted Week 6 Objective:**  
+Strengthen Terraform fundamentals and continue AWS Cloud Practitioner Essentials while preparing for full Kubernetes + Terraform hands-on work in Week 7.
+
+### 🎯 **Goals (Revised Based on Actual Progress)**
+
+- Strengthen Terraform basics:
+  - Providers (`local_file`, `random_pet`)
+  - Variables and outputs (completed)
+  - Terraform workflow: `init`, `plan`, `apply`, `destroy`
+- Install Terraform **locally** on Windows (completed)
+- Continue AWS Cloud Practitioner Essentials:
+  - Completed Module 11 (Pricing & Support) — 90%
+  - Remaining: Modules 8, 12, 13
+- Maintain repo documentation and weekly logs
+- Prepare environment for Week 7:
+  - Terraform project folder structure
+  - Minikube ready for hands-on work
+
+> Note: Full Terraform + Minikube hands-on (Deployments, Services, YAML manifests, AWS IaC projects) has been moved to **Week 7**, as Week 6 focused on regaining momentum, completing AWS Module 11, and establishing a clean Terraform local setup.
 
 ---
 
-# 🗓️ Week 6 – IaC + Kubernetes Hands-On
-
-**Week 6 Objective:**  
-Consolidate Terraform fundamentals while gaining practical Kubernetes experience using Minikube.
-
-### 🎯 **Goals**
-- Complete the *Hello Minikube* tutorial  
-- Deploy Pods, Deployments, and Services locally  
-- Expand Terraform skills: variables, outputs, and basic AWS resources  
-- Complete AWS Cloud Practitioner Modules 11–12  
-- Add command references for `kubectl` & Terraform  
-- Document all labs and notes for Week 6  
-
----
 
 ## 🗓️ Recent Updates
 
 
 | **Date** | **Update** |
 |-----------|------------|
+| **Nov 21 2025** | Successfully installed **Terraform v1.14.0** on Windows and verified the setup. Completed **AWS Cloud Practitioner Module 11 (Pricing & Support)** with a **90% score**. Only Modules 8, 12, and 13 remain before completing the AWS Practitioner Essentials course. |
 | **Nov 20 2025** | Advanced Terraform basics further to **31% completion**. Completed lessons and hands-on labs on variable definitions and outputs (five labs total). Spent the morning preparing a new short CV (English + German). Used Markdown → PDF export for improved layout. Afternoon included exercise breaks and family responsibilities. |
 | **Nov 19 2025** | Continued **Terraform for Beginners** (KodeKloud). Progress increased from 12% → **19%** after completing hands-on labs on configuring multiple providers (`local_file` and `random_pet`) and practicing the Terraform workflow. |
 | **Nov 18 2025** | Updated GitHub profile and cleaned up pinned repositories. Added missing short descriptions to previous bootcamp projects for better portfolio presentation. |
