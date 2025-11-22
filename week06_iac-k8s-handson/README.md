@@ -69,7 +69,6 @@ Hands-on Kubernetes and Terraform projects (Deployments, Services, local IaC pro
 | Terraform Variables & Outputs | Completed all 5 hands-on labs defining variables and outputs in `.tf` files | ✅ Completed | `screenshots/terraform-variables-labs.png` |
 | Terraform Apply Output | Execution output from applying sample Terraform config (local resources) | ⚙ In Progress | `screenshots/terraform-apply-output.png` |
 | AWS Practitioner Module 11 | Finished Module 11 (Pricing & Support), scored 90% | 🎓 Completed | `screenshots/aws-module11-score.png` |
-| Repo Updates | Updated pinned GitHub projects, README sections, and weekly logs | 📁 Completed | `screenshots/github-updates-nov21.png` |
 
 ---
 
