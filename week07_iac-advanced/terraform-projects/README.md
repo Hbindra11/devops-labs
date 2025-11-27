@@ -66,41 +66,45 @@ Navigate into the folder:
 
 ```
 cd basics-lab
+
+```
 ---
 Initialize providers:
 
 ```
 terraform init
-
+```
 ---
 Validate configuration:
 
 ```
 terraform validate
-
+```
 ---
 Preview changes:
+
 ´´´
 terraform plan
-
+```
 ---
 Apply:
 
 ´´´
 terraform apply
-Type yes when prompted.
+```
+- Type yes when prompted.
 
 ---
 View outputs:
 
 ´´´
 terraform output
-
+```
 ---
 Destroy resources:
 
 ´´´
 terraform destroy
+```
 
----
 
