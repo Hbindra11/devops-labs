@@ -143,6 +143,7 @@ project/
 ```
 rm -rf .terraform
 ```
+---
 
 ## 🕵️ Debugging & Inspection
 
