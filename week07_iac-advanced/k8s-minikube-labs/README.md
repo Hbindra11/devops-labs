@@ -26,8 +26,6 @@ k8s-minikube-labs/
 
 ---
 
----
-
 ## 🎯 Objectives of Minikube Hands-On Practice
 
 - Learn how to generate Kubernetes YAML manifests using:
