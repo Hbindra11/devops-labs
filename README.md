@@ -88,6 +88,8 @@ The repository is being gradually structured as I progress through my **8-week D
 | **AWS Cloud Practitioner Essentials** | AWS Skill Builder | **~82% Complete** | Completed Module 11 (Pricing & Support) scored **90%**. Remaining: Modules 8, 12, 13. |
 | **Terraform for Beginners** | KodeKloud + Local Terraform | **~31% Complete** | Installed Terraform locally (v1.14.0). Completed provider configuration labs, variables, outputs (5 labs). Terraform hands-on moves to Week 7. |
 | **CI/CD & Automation (Intro)** | GitHub Actions | **Initial Setup Done** | Created first CI workflow (`ci.yml`). Plans to expand into automated testing and Docker integration later. |
+| **Kubernetes (Minikube Hands-On)** | Local Practice Environment | **Started – Week 7** | Completed first hands-on Kubernetes lab using Minikube. Created Pod, Deployment, and Service manifests via `--dry-run=client -o yaml` and successfully deployed an Nginx application locally. Practiced applying, verifying, exposing, accessing, and deleting Kubernetes resources. |
+| **Terraform (Local Hands-On Projects)** | Local Terraform + KodeKloud | **Active – Week 7** | Set up a structured Terraform practice project with `main.tf`, `variables.tf`, `outputs.tf`, and `terraform.tfvars`. Implemented providers (`local`, `random`), variables, outputs, and variable precedence. Successfully completed the full Terraform workflow: `init → validate → plan → apply → destroy`. |
 | **Portfolio & Documentation** | GitHub | **Ongoing** | Weekly logs maintained. Repo reorganized. Pinned projects cleaned up with improved descriptions. |
 
 ---
@@ -134,13 +136,37 @@ Strengthen Terraform fundamentals and continue AWS Cloud Practitioner Essentials
 > Note: Full Terraform + Minikube hands-on (Deployments, Services, YAML manifests, AWS IaC projects) has been moved to **Week 7**, as Week 6 focused on regaining momentum, completing AWS Module 11, and establishing a clean Terraform local setup.
 
 ---
+# 🗓️ Week 7 – Kubernetes & Terraform Hands-On Restart
 
+**Adjusted Week 7 Objective:**  
+Rebuild momentum after a slow start to the week by performing small, focused hands-on exercises with Minikube and Terraform. The goal was to reinforce practical skills in Kubernetes resource creation and Terraform configuration basics while balancing job applications and personal commitments.
+
+### 🎯 Goals (Realistic and Flexible for the Week)
+
+- Re-establish consistent progress despite variable daily availability.
+- Perform hands-on Kubernetes practice using Minikube:
+  - Create Pod, Deployment, and Service manifests using `--dry-run=client -o yaml`
+  - Deploy an application (Nginx), access it via NodePort, and clean up resources
+- Begin structured Terraform hands-on practice:
+  - Configure providers (`local`, `random`)
+  - Use variables, outputs, and tfvars for overrides
+  - Execute full Terraform workflow (`init`, `validate`, `plan`, `apply`, `destroy`)
+- Organize new local practice folders for both Kubernetes and Terraform exercises
+- Document progress and maintain repo updates through the week
+
+> Week 7 included limited time on several days due to job applications and family responsibilities, but still resulted in meaningful progress in Minikube and Terraform hands-on practice.
+
+---
 
 ## 🗓️ Recent Updates
 
-
 | **Date** | **Update** |
 |-----------|------------|
+| **Nov 26 (Day 5)** | Worked on another job application earlier in the day. In the evening, continued **Terraform hands-on practice**. Set up a new Terraform project folder and created: `main.tf` (local + random providers), `variables.tf` (default filename variable), `outputs.tf` (random name + file path), and `terraform.tfvars` (override filename). Confirmed variable precedence and successfully ran the full Terraform workflow: `init → plan → apply → destroy`. |
+| **Nov 25 (Day 4)** | Followed the updated Week 7 plan and spent 30 minutes practicing Kubernetes with Minikube. Created a new local practice folder and generated YAML manifests for **Pod, Deployment, and Service** using `--dry-run=client -o yaml > file.yaml`. Applied each resource, verified them, accessed the Nginx application in the browser, and then cleaned up by deleting the objects. |
+| **Nov 24 (Day 3)** | Spent the majority of the day on a new job application. No hands-on DevOps work completed. |
+| **Nov 23 (Day 2)** | No study — family responsibilities and Sunday routines made it difficult to focus. |
+| **Nov 22 (Day 1)** | Completed the **Hello Minikube** tutorial from the Kubernetes website. Successfully launched the example app but wasn’t fully sure what the tutorial was intended to teach beyond verifying the Minikube environment. |
 | **Nov 21 2025** | Successfully installed **Terraform v1.14.0** on Windows and verified the setup. Completed **AWS Cloud Practitioner Module 11 (Pricing & Support)** with a **90% score**. Only Modules 8, 12, and 13 remain before completing the AWS Practitioner Essentials course. |
 | **Nov 20 2025** | Advanced Terraform basics further to **31% completion**. Completed lessons and hands-on labs on variable definitions and outputs (five labs total). Spent the morning preparing a new short CV (English + German). Used Markdown → PDF export for improved layout. Afternoon included exercise breaks and family responsibilities. |
 | **Nov 19 2025** | Continued **Terraform for Beginners** (KodeKloud). Progress increased from 12% → **19%** after completing hands-on labs on configuring multiple providers (`local_file` and `random_pet`) and practicing the Terraform workflow. |
