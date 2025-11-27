@@ -64,6 +64,43 @@ The `basics-lab/` project covers:
 
 Navigate into the folder:
 
-```sh
+```
 cd basics-lab
 ---
+Initialize providers:
+
+```
+terraform init
+
+---
+Validate configuration:
+
+```
+terraform validate
+
+---
+Preview changes:
+´´´
+terraform plan
+
+---
+Apply:
+
+´´´
+terraform apply
+Type yes when prompted.
+
+---
+View outputs:
+
+´´´
+terraform output
+
+---
+Destroy resources:
+
+´´´
+terraform destroy
+
+---
+
