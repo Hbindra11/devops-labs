@@ -83,13 +83,13 @@ terraform validate
 ---
 Preview changes:
 
-´´´
+```
 terraform plan
 ```
 ---
 Apply:
 
-´´´
+```
 terraform apply
 ```
 - Type yes when prompted.
@@ -97,13 +97,13 @@ terraform apply
 ---
 View outputs:
 
-´´´
+```
 terraform output
 ```
 ---
 Destroy resources:
 
-´´´
+```
 terraform destroy
 ```
 
