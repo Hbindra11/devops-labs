@@ -60,7 +60,7 @@ devops-labs/
 │   ├── week06_log.md                # Daily log
 │   └── screenshots/                 # AWS/Terraform progress images
 │
-├── week07_iac-advanced/             # NEW – Terraform + Minikube hands-on 
+├── week07_iac-advanced/             # Terraform + Minikube hands-on 
 │   ├── README.md
 │   ├── week07_log.md
 │   ├── terraform-projects/
@@ -68,7 +68,7 @@ devops-labs/
 │
 ├── linux-commands.md
 ├── kubectl-commands.md             
-├── terraform-commands.md            # (upcoming)
+├── terraform-commands.md            
 │
 └── .github/workflows/
     └── ci.yml                       # GitHub Actions – CI setup
