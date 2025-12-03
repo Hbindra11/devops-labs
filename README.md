@@ -162,6 +162,14 @@ Rebuild momentum after a slow start to the week by performing small, focused han
 
 | **Date** | **Update** |
 |-----------|------------|
+| **Dec 3 (Week 8 – Day 5)** | Continued the Terraform Basics course. Covered **mutable vs immutable infrastructure**, lifecycle rules, and completed related hands-on labs. |
+| **Dec 2 (Week 8 – Day 4)** | Completed additional Terraform Basics hands-on labs and reached **40% completion**. Spent the rest of the day preparing for an upcoming job interview related to a previous application. |
+| **Dec 1 (Week 8 – Day 3)** | Received a job application rejection which briefly affected motivation. Later practiced for an upcoming **German-language interview**, limiting time for technical study. |
+| **Nov 30 (Week 8 – Day 2)** | No study — took the day off due to household tasks for 1st Advent and helping daughter prepare for schoolwork. |
+| **Nov 29 (Week 8 – Day 1)** | Reviewed earlier Terraform notes and continued the **Terraform Basics** course. Covered more about state, `terraform validate`, `terraform fmt`, `terraform show`, `terraform providers`, `terraform refresh`, and flags such as `-refresh-only` and `-refresh=false`. Also learned about `terraform graph` and visualizing dependencies with Graphviz. |
+| **Nov 28 (Week 7 – Day 7)** | Continued the KodeKloud **Terraform Basics** course, completed lessons and hands-on labs on Terraform **state**, increasing progress from **31% → 36%**. |
+| **Nov 27 (Week 7 – Day 6)** | Updated the repo documentation. Completed the remaining half of **AWS Cloud Practitioner Essentials Module 8 (AI/ML & Data Analytics)** and scored **100%** on the quiz. |
+
 | **Nov 26 (Day 5)** | Worked on another job application earlier in the day. In the evening, continued **Terraform hands-on practice**. Set up a new Terraform project folder and created: `main.tf` (local + random providers), `variables.tf` (default filename variable), `outputs.tf` (random name + file path), and `terraform.tfvars` (override filename). Confirmed variable precedence and successfully ran the full Terraform workflow: `init → plan → apply → destroy`. |
 | **Nov 25 (Day 4)** | Followed the updated Week 7 plan and spent 30 minutes practicing Kubernetes with Minikube. Created a new local practice folder and generated YAML manifests for **Pod, Deployment, and Service** using `--dry-run=client -o yaml > file.yaml`. Applied each resource, verified them, accessed the Nginx application in the browser, and then cleaned up by deleting the objects. |
 | **Nov 24 (Day 3)** | Spent the majority of the day on a new job application. No hands-on DevOps work completed. |
